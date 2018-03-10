@@ -1,0 +1,65 @@
+<resources>
+
+    <dimen name="fragment_padding">15dp</dimen>
+    <dimen name="tabbar_padding_bottom">47dp</dimen>
+    <dimen name="header_text_size">22sp</dimen>
+    <dimen name="edit_text_size">18sp</dimen>
+    <dimen name="button_text_size">22sp</dimen>
+    <dimen name="black_button_text_size">16sp</dimen>
+    <dimen name="login_text_size">16sp</dimen>
+    <dimen name="search_edit_text_size">16sp</dimen>
+    <dimen name="name_text_size">14sp</dimen>
+    <dimen name="details_text_size">12sp</dimen>
+    <dimen name="venue_image_width">55dp</dimen>
+    <dimen name="venue_image_height">45dp</dimen>
+    <dimen name="time_txt_size">12sp</dimen>
+    <dimen name="seach_drawable_padding">25sp</dimen>
+    <dimen name="venue_image_size">100dp</dimen>
+    <dimen name="banner_image_height">200dp</dimen>
+    <dimen name="venue_header_text_size">18sp</dimen>
+    <dimen name="venue_details_text_size">16sp</dimen>
+    <dimen name="service_header_text_size">20sp</dimen>
+    <dimen name="review_title_text_size">18sp</dimen>
+    <dimen name="service_details_text_size">16sp</dimen>
+    <dimen name="review_date_text_size">12sp</dimen>
+    <dimen name="profile_header_text_size">19sp</dimen>
+    <dimen name="profile_button_text_size">16sp</dimen>
+    <dimen name="coupon_photo_detail_text_size">16sp</dimen>
+    <dimen name="accept_bid_text_size">18sp</dimen>
+    <dimen name="calender_month_textsize">15sp</dimen>
+    <dimen name="calender_height">160dp</dimen>
+    <dimen name="calender_day_textsize">13sp</dimen>
+    <dimen name="calender_date_textsize">15sp</dimen>
+    <dimen name="appointment_name">15sp</dimen>
+    <dimen name="appointment_details">12sp</dimen>
+    <dimen name="coupon_image_width">179dp</dimen>
+    <dimen name="coupon_image_height">100dp</dimen>
+    <dimen name="job_image_height">150dp</dimen>
+    <dimen name="slidingmenu_offset">80dp</dimen>
+
+    <!-- Margin -->
+    <dimen name="margin_2dp">2dp</dimen>
+    <dimen name="margin_3dp">3dp</dimen>
+    <dimen name="margin_top">5dp</dimen>
+    <dimen name="margin_top_0">8dp</dimen>
+    <dimen name="margin_top_1">15dp</dimen>
+    <dimen name="margin_top_10">10dp</dimen>
+    <dimen name="margin_top_18">18dp</dimen>
+    <dimen name="margin_top_2">20dp</dimen>
+    <dimen name="margin_top_3">25dp</dimen>
+    <dimen name="margin_top_4">35dp</dimen>
+    <dimen name="margin_top_5">45dp</dimen>
+
+    <!-- text size -->
+    <dimen name="h_0">28sp</dimen>
+    <dimen name="h_1">24sp</dimen>
+    <dimen name="h_2">22sp</dimen>
+    <dimen name="h_3">20sp</dimen>
+    <dimen name="h_4">18sp</dimen>
+    <dimen name="h_5">16sp</dimen>
+    <dimen name="h_6">14sp</dimen>
+    <dimen name="h_7">11sp</dimen>
+    <dimen name="h_8">7sp</dimen>
+    <dimen name="h_9">6sp</dimen>
+
+</resources>

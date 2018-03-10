@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
+        "source": "/home/ctpl126/.android/build-cache/1336f0dff2884ab92b5bac343967bb8d58795f6d/output/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/home/ctpl126/.android/build-cache/1336f0dff2884ab92b5bac343967bb8d58795f6d/output/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
+        "source": "/home/ctpl126/.android/build-cache/1336f0dff2884ab92b5bac343967bb8d58795f6d/output/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/home/ctpl126/.android/build-cache/1336f0dff2884ab92b5bac343967bb8d58795f6d/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/home/ctpl126/.android/build-cache/1336f0dff2884ab92b5bac343967bb8d58795f6d/output/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/home/ctpl126/.android/build-cache/1336f0dff2884ab92b5bac343967bb8d58795f6d/output/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
+        "source": "/home/ctpl126/.android/build-cache/1336f0dff2884ab92b5bac343967bb8d58795f6d/output/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_thumb.xml",
+        "source": "/home/ctpl126/.android/build-cache/1336f0dff2884ab92b5bac343967bb8d58795f6d/output/res/color-v23/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/home/ctpl126/.android/build-cache/1336f0dff2884ab92b5bac343967bb8d58795f6d/output/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
+        "source": "/home/ctpl126/.android/build-cache/1336f0dff2884ab92b5bac343967bb8d58795f6d/output/res/color-v23/abc_tint_switch_track.xml"
+    }
+]

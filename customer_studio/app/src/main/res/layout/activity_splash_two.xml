@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/splash_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/college_pic_xxxhdpi"
+    android:orientation="vertical"
+    android:weightSum="1" >
+
+    <LinearLayout
+        android:id="@+id/animation_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.8"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/splash_logo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/splash_logo_xxxhdpi"
+            android:visibility="gone" />
+
+        <com.handyman.view.TextViewPlus
+            android:id="@+id/simple_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/splash_text"
+            android:textColor="@color/drak_gray"
+            android:visibility="gone"
+            app:customFont="@string/font_medium" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center|center_vertical"
+            android:layout_weight="1" />
+
+        <com.handyman.view.CirclePageIndicator
+            android:id="@+id/circle_pager_Indicator"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#0071C8"
+            android:padding="5dp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.2"
+        android:padding="30dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/margin_top"
+            android:layout_marginRight="@dimen/margin_top"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+
+            <com.handyman.view.TextViewPlus
+                android:id="@+id/loginbtn"
+                style="@style/ButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_top"
+                android:layout_weight="1"
+                android:padding="@dimen/margin_top"
+                android:text="@string/login"
+                android:textColor="@color/white"
+                android:textSize="@dimen/margin_top_2"
+                app:customFont="@string/font_medium" />
+
+            <com.handyman.view.TextViewPlus
+                android:id="@+id/signupbtn"
+                style="@style/ButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_top"
+                android:layout_weight="1"
+                android:background="@drawable/hover_btn_xxxhdpi"
+                android:padding="@dimen/margin_top"
+                android:text="@string/sign_up"
+                android:textColor="@color/white"
+                android:textSize="@dimen/margin_top_2"
+                app:customFont="@string/font_medium" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

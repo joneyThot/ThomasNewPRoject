@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/libs/httpmime-4.2.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="dca10d76e8f2bf621608dc3c13ca5aab415cf5af">
+        <dex dex="/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/transforms/dex/debug/folders/1000/2/httpmime-4.2.3_2aa127acee16be6734628773c7e69eb583215c36/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ctpl126/.android/build-cache/35f335bbc8edb07efbe6388598ce338f03ccf77d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4d72555841c2201902e974ec14a726666f924e81/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ctpl126/Documents/Project/myhandyman/customer_studio/slidingPaneLibrary/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4e0116647be0efc145127abf9ce417fbc3e00dc6">
+        <dex dex="/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/transforms/dex/debug/folders/1000/4/classes_c161b5870d339ee3e2d7747a35ac5c9a461f478f/classes.dex" />
+    </item>
+
+</items>

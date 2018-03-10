@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/handyman_studio/app/build/intermediates/res/merged/debug/drawable-hdpi/icon_star_filled_hdpi.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/handyman_studio/app/src/main/res/drawable-hdpi/icon_star_filled_hdpi.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/handyman_studio/app/build/intermediates/res/merged/debug/drawable-hdpi/icon_star_blank_hdpi.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/handyman_studio/app/src/main/res/drawable-hdpi/icon_star_blank_hdpi.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/handyman_studio/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_launcher.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/handyman_studio/app/src/main/res/drawable-hdpi/ic_launcher.png"
+    }
+]

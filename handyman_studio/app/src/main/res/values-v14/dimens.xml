@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- xhdpi. -->
+    <dimen name="actionbar_title_size">21sp</dimen>
+
+    <!-- text size -->
+    <dimen name="h_0">30sp</dimen>
+    <dimen name="h_1">26sp</dimen>
+    <dimen name="h_2">24sp</dimen>
+    <dimen name="h_3">22sp</dimen>
+    <dimen name="h_4">20sp</dimen>
+    <dimen name="h_5">18sp</dimen>
+    <dimen name="h_6">16sp</dimen>
+    <dimen name="h_7">13sp</dimen>
+    <dimen name="h_8">9sp</dimen>
+    <dimen name="h_9">11sp</dimen>
+
+</resources>

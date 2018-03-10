@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/cradits_dialog_img"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/use_credits" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cradits_dialog_img"
+        android:orientation="horizontal" >
+
+        <com.handy.view.TextViewPlus
+            android:id="@+id/cradits_dialog_confirm_btn"
+            style="@style/ButtonDialogStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cradits_dialog_confirm"
+            android:textColor="@color/white"
+            app:customFont="@string/font_medium" />
+        
+        <View android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"/>
+
+        <com.handy.view.TextViewPlus
+            android:id="@+id/cradits_dialog_cancel_btn"
+            style="@style/ButtonDialogStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cradits_dialog_cancel"
+            android:textColor="@color/white"
+            app:customFont="@string/font_medium" />
+    </LinearLayout>
+
+</RelativeLayout>

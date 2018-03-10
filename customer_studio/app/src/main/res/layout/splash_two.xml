@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center|center_vertical" />
+
+    <com.handyman.view.CirclePageIndicator
+        android:id="@+id/circle_pager_Indicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:padding="@dimen/margin_top_10" />
+
+    <com.handyman.view.TextViewPlus
+        android:id="@+id/skip_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/alphared"
+        android:padding="@dimen/margin_top_10"
+        android:text="SKIP >>"
+        android:textColor="@color/white"
+        android:textSize="@dimen/margin_top_10"
+        app:customFont="@string/font_medium" />
+
+    <RelativeLayout
+        android:id="@+id/rl1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/transparent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:weightSum="2" >
+
+            <com.handyman.view.TextViewPlus
+                android:id="@+id/loginbtn"
+                style="@style/ButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_top"
+                android:layout_weight="1"
+                android:padding="@dimen/margin_top"
+                android:text="@string/login"
+                android:textColor="@color/white"
+                android:textSize="@dimen/margin_top_2"
+                app:customFont="@string/font_medium" />
+
+            <com.handyman.view.TextViewPlus
+                android:id="@+id/signupbtn"
+                style="@style/ButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_top"
+                android:layout_weight="1"
+                android:background="@drawable/hover_btn_xxxhdpi"
+                android:padding="@dimen/margin_top"
+                android:text="@string/sign_up"
+                android:textColor="@color/white"
+                android:textSize="@dimen/margin_top_2"
+                app:customFont="@string/font_medium" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

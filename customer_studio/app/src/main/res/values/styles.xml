@@ -1,0 +1,282 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="CustomActivityTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="android:homeAsUpIndicator">@android:color/transparent</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@drawable/topbar</item>
+        <item name="android:displayOptions">homeAsUp|useLogo|showHome</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/title_color</item>
+    </style>
+
+    <!-- Login -->
+    <style name="LoginHeaderStyle">
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">@dimen/header_text_size</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="DialogAcceptBidStyle">
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">@dimen/accept_bid_text_size</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">left</item>
+    </style>
+
+
+    <style name="LoginEditTextStyle" >
+        <item name="android:padding">@dimen/margin_top_0</item>
+        <item name="android:drawablePadding">@dimen/margin_top_1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:imeOptions">actionNext</item>
+        <item name="android:background">@drawable/input_border</item>
+        <item name="android:textSize">@dimen/edit_text_size</item>
+        <item name="android:textColor">@color/drak_gray</item>
+        <item name="android:textColorHint">@color/hint_color</item>
+        <item name="android:fontFamily">@string/font_regular</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+    
+    <style name="LoginMultilineEditTextStyle">
+        <item name="android:padding">@dimen/margin_top_0</item>
+        <item name="android:drawablePadding">@dimen/margin_top_1</item>
+        <item name="android:imeOptions">actionNext</item>
+        <item name="android:background">@drawable/input_border</item>
+        <item name="android:textSize">@dimen/edit_text_size</item>
+        <item name="android:textColor">@color/drak_gray</item>
+        <item name="android:textColorHint">@color/hint_color</item>
+        <item name="android:fontFamily">@string/font_regular</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+    
+    <style name="MultilineEditTextStyle">
+        <item name="android:padding">@dimen/margin_top_0</item>
+        <item name="android:drawablePadding">@dimen/margin_top_1</item>
+        <item name="android:imeOptions">actionNext</item>
+        <item name="android:textSize">@dimen/edit_text_size</item>
+        <item name="android:textColor">@color/drak_gray</item>
+        <item name="android:textColorHint">@color/hint_color</item>
+        <item name="android:fontFamily">@string/font_regular</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/button_selector</item>
+    </style>
+
+    <style name="ButtonDialogStyle">
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/margin_top_10</item>
+        <item name="android:background">@drawable/button_selector_dialog</item>
+    </style>
+
+    <style name="ButtonRegisterStyle">
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:textColor">@color/title_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/register_btn</item>
+    </style>
+
+    <style name="BlackButtonStyle">
+        <item name="android:singleLine">true</item>
+        <item name="android:padding">@dimen/margin_top</item>
+        <item name="android:textSize">@dimen/black_button_text_size</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+        <!-- <item name="android:background">@drawable/black_button</item> -->
+    </style>
+
+    <style name="SearchTextStyle">
+        <item name="android:paddingLeft">@dimen/seach_drawable_padding</item>
+        <item name="android:paddingRight">@dimen/margin_top</item>
+        <item name="android:singleLine">true</item>
+        <!-- <item name="android:hint">@string/search_hint</item> -->
+        <item name="android:imeOptions">actionSearch</item>
+        <!-- <item name="android:background">@drawable/search</item> -->
+        <item name="android:textColorHint">@android:color/black</item>
+        <item name="android:textSize">@dimen/search_edit_text_size</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+
+    <style name="RowTextStyle">
+        <item name="android:padding">@dimen/margin_top_0</item>
+        <item name="android:singleLine">true</item>
+        <!-- <item name="android:background">@drawable/list_selector</item> -->
+        <item name="android:textSize">@dimen/venue_header_text_size</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+
+    <style name="ProfileTextStyle">
+        <item name="android:paddingBottom">@dimen/margin_top</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">@dimen/venue_header_text_size</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+
+    <style name="StarRatingBar"> <!-- parent="@android:style/Widget.RatingBar" > -->
+        <!-- <item name="android:progressDrawable">@drawable/ratingbar_selector</item> -->
+        <item name="android:minHeight">17dp</item>
+        <item name="android:maxHeight">17dp</item>
+    </style>
+
+    <style name="ProfileHeaderTextStyle">
+        <item name="android:paddingLeft">@dimen/fragment_padding</item>
+        <item name="android:paddingRight">@dimen/fragment_padding</item>
+        <item name="android:paddingTop">@dimen/margin_top_0</item>
+        <item name="android:paddingBottom">@dimen/margin_top_0</item>
+        <!-- <item name="android:background">@color/light_gray</item> -->
+        <item name="android:textSize">@dimen/profile_header_text_size</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+
+    <style name="ProfileHeaderTextStyleMoreDetails">
+        <item name="android:padding">@dimen/margin_top_0</item>
+        <!-- <item name="android:background">@color/light_gray</item> -->
+        <item name="android:textSize">@dimen/profile_header_text_size</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+
+    <style name="ProfileButtonStyle">
+        <item name="android:padding">@dimen/margin_top</item>
+        <item name="android:textSize">@dimen/profile_button_text_size</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:gravity">center</item>
+        <!-- <item name="android:background">@drawable/orange_button_selector</item> -->
+    </style>
+
+    <style name="calendar_event_style" parent="@android:style/TextAppearance.Small">
+        <item name="android:textColor">#FF6600</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">8sp</item>
+    </style>
+
+    <style name="DaysHeaderTextStyle">
+
+        <!-- <item name="android:background">@color/orange</item> -->
+        <item name="android:paddingTop">@dimen/margin_top</item>
+        <item name="android:paddingBottom">@dimen/margin_top</item>
+        <item name="android:textSize">@dimen/calender_day_textsize</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="TimeSlotTextStyle">
+
+        <!-- <item name="android:background">@drawable/timing_hr_bg</item> -->
+        <item name="android:paddingTop">@dimen/margin_top</item>
+        <item name="android:paddingBottom">@dimen/margin_top</item>
+        <item name="android:textSize">@dimen/calender_day_textsize</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="PaymentInfoEditTextStyle">
+        <item name="android:padding">@dimen/margin_top_0</item>
+        <item name="android:drawablePadding">@dimen/margin_top_1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:imeOptions">actionNext</item>
+        <!-- <item name="android:background">@drawable/input_bg_small</item> -->
+        <item name="android:textSize">@dimen/edit_text_size</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+
+    <style name="placebidEditStyle">
+        <item name="android:padding">@dimen/margin_top_0</item>
+        <item name="android:drawablePadding">@dimen/margin_top_1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:imeOptions">actionNext</item>
+        <!-- <item name="android:background">@drawable/input_bg</item> -->
+        <item name="android:textSize">@dimen/review_date_text_size</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+
+    <style name="WithdrawalPaymentEditTextStyle">
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:imeOptions">actionNext</item>
+        <!-- <item name="android:background">@drawable/new_input_bg</item> -->
+        <item name="android:textSize">@dimen/edit_text_size</item>
+        <!-- <item name="android:textCursorDrawable">@null</item> -->
+        <item name="android:textColorHint">@android:color/darker_gray</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+
+    <style name="menuTextStyle">
+        <item name="android:padding">8dp</item>
+        <!-- <item name="android:background">@drawable/sidemenu_normal_bg1</item> -->
+        <item name="android:textColor">@color/menu_text_color</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/h_6</item>
+    </style>
+
+    <style name="menuTitleTextStyle">
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:textSize">@dimen/h_5</item>
+        <item name="android:textColor">@color/drak_gray</item>
+        <!-- <item name="android:background">@drawable/sidemenu_normal_bg2</item> -->
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="CustomRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/custom_ratingbar</item>
+        <item name="android:minHeight">18dip</item>
+        <item name="android:maxHeight">18dip</item>
+    </style>
+
+    <style name="CustomRatingBarHdpi" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/custom_ratingbar_hdpi</item>
+        <item name="android:minHeight">22dip</item>
+        <item name="android:maxHeight">22dip</item>
+    </style>
+
+    <style name="CustomRatingBarMdpi" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/custom_ratingbar_mdpi</item>
+        <item name="android:minHeight">20dip</item>
+        <item name="android:maxHeight">20dip</item>
+    </style>
+
+    <style name="CustomRatingBarXHdpi" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/custom_ratingbar_xhdpi</item>
+        <item name="android:minHeight">28dip</item>
+        <item name="android:maxHeight">28dip</item>
+    </style>
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@android:anim/slide_in_left</item>
+        <item name="android:windowExitAnimation">@android:anim/slide_out_right</item>
+    </style>
+
+</resources>

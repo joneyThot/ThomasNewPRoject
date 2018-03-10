@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/handyman_studio/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/logo.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/handyman_studio/slidingPaneLibrary/build/intermediates/bundles/default/res/drawable-ldpi-v4/logo.png"
+    },
+    {
+        "merged": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/logo.png",
+        "source": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/build/intermediates/exploded-aar/handyman_studio/slidingPaneLibrary/unspecified/res/drawable-ldpi-v4/logo.png"
+    }
+]

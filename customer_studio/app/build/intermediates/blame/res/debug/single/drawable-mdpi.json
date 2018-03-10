@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_launcher.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-mdpi/icon_star_blank.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-mdpi/icon_star_blank.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-mdpi/icon_star_filled_mdpi.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-mdpi/icon_star_filled_mdpi.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-mdpi/icon_star_blank_mdpi.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-mdpi/icon_star_blank_mdpi.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-mdpi/icon_star_filled.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-mdpi/icon_star_filled.png"
+    }
+]

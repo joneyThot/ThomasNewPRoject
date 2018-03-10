@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_top_2"
+        android:layout_marginTop="@dimen/margin_top_2"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/handyman_id_edittext"
+            style="@style/LoginEditTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:hint="@string/nearbyhandyman_id"
+            android:imeOptions="actionGo"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/searchBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="@dimen/margin_top_10"
+            android:src="@drawable/icon_search" />
+    </LinearLayout>
+
+  <!--   <com.android.handyman.view.TextViewPlus
+        android:id="@+id/refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/ll1"
+        android:layout_marginRight="@dimen/margin_top_10"
+        android:background="@color/alphared"
+        android:padding="@dimen/margin_top_10"
+        android:text="Refresh"
+        android:textColor="@color/white"
+        android:textSize="@dimen/margin_top_10"
+        app:customFont="@string/font_medium"
+        android:visibility="gone" /> -->
+
+    <ImageView
+         android:id="@+id/refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/ll1"
+        android:layout_marginRight="@dimen/margin_top_2"
+        android:background="@color/white"
+        android:padding="@dimen/margin_top_10"
+        android:src="@drawable/icon_refresh_xxxhdpi" />
+
+</RelativeLayout>

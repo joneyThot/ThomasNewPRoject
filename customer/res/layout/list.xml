@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/login_bg"
+    android:fillViewport="true"
+    android:overScrollMode="never"
+    android:paddingBottom="@dimen/h_4"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:id="@+id/menuLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <com.android.handyman.view.CircularImageView
+            android:id="@+id/user_img"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/margin_top_1"
+            android:gravity="center"
+            android:src="@drawable/splash_logo_xxxhdpi" />
+
+        <LinearLayout
+            android:id="@+id/menu_homebtn_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/margin_3dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/menu_home"
+                android:src="@drawable/menu_icon_home" />
+
+            <com.android.handyman.view.TextViewPlus
+                android:id="@+id/menu_homebtn"
+                style="@style/menuTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/menu_find_near_by_handyman"
+                app:customFont="@string/font_regular" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/menu_home"
+                android:src="@drawable/icon_arrow_left_dark" />
+        </LinearLayout>
+
+      <!--   <LinearLayout
+            android:id="@+id/menu_find_near_by_handyman_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/margin_3dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/menu_home"
+                android:src="@drawable/menu_icon_map" />
+
+            <com.android.handyman.view.TextViewPlus
+                android:id="@+id/menu_find_near_by_handyman"
+                style="@style/menuTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/menu_find_near_by_handyman"
+                app:customFont="@string/font_regular" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/menu_home"
+                android:src="@drawable/icon_arrow_left_dark" />
+        </LinearLayout> -->
+
+        <LinearLayout
+            android:id="@+id/menu_my_hirings_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/margin_3dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/menu_home"
+                android:src="@drawable/menu_icon_hirings" />
+
+            <com.android.handyman.view.TextViewPlus
+                android:id="@+id/menu_my_hirings"
+                style="@style/menuTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/menu_my_hirings"
+                app:customFont="@string/font_regular" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/menu_home"
+                android:src="@drawable/icon_arrow_left_dark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/menu_my_profile_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/margin_3dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/menu_home"
+                android:src="@drawable/menu_icon_my_profile" />
+
+            <com.android.handyman.view.TextViewPlus
+                android:id="@+id/menu_my_profile"
+                style="@style/menuTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/menu_my_profile"
+                app:customFont="@string/font_regular" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/menu_home"
+                android:src="@drawable/icon_arrow_left_dark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/menu_my_cradits_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/margin_3dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/menu_home"
+                android:src="@drawable/menu_icon_credits" />
+
+            <com.android.handyman.view.TextViewPlus
+                android:id="@+id/menu_my_cradits"
+                style="@style/menuTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/menu_my_cradits"
+                app:customFont="@string/font_regular" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/menu_home"
+                android:src="@drawable/icon_arrow_left_dark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/menu_favourite_handyman_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/margin_3dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/menu_home"
+                android:src="@drawable/menu_icon_fav" />
+
+            <com.android.handyman.view.TextViewPlus
+                android:id="@+id/menu_favourite_handyman"
+                style="@style/menuTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/menu_favourite_handyman"
+                app:customFont="@string/font_regular" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/menu_home"
+                android:src="@drawable/icon_arrow_left_dark" />
+        </LinearLayout>
+
+       <!--  <LinearLayout
+            android:id="@+id/menu_settings_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/margin_3dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/menu_home"
+                android:src="@drawable/menu_icon_settings" />
+
+            <com.android.handyman.view.TextViewPlus
+                android:id="@+id/menu_settings"
+                style="@style/menuTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/menu_settings"
+                app:customFont="@string/font_regular" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/menu_home"
+                android:src="@drawable/icon_arrow_left_dark" />
+        </LinearLayout> -->
+
+        <LinearLayout
+            android:id="@+id/menu_feedback_suggestions_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/margin_3dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/menu_home"
+                android:src="@drawable/menu_icon_feedback" />
+
+            <com.android.handyman.view.TextViewPlus
+                android:id="@+id/menu_feedback_suggestions"
+                style="@style/menuTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/menu_feedback_suggestions"
+                app:customFont="@string/font_regular" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/menu_home"
+                android:src="@drawable/icon_arrow_left_dark" />
+        </LinearLayout>
+        
+      <LinearLayout
+            android:id="@+id/menu_advertise_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/margin_3dp"
+            android:gravity="center"
+            android:orientation="horizontal" 
+            android:visibility="visible">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/menu_home"
+                android:src="@drawable/menu_icon_advertise" />
+
+            <com.android.handyman.view.TextViewPlus
+                android:id="@+id/menu_advertise"
+                style="@style/menuTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/menu_advertise"
+                app:customFont="@string/font_regular" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/menu_home"
+                android:src="@drawable/icon_arrow_left_dark" />
+        </LinearLayout> 
+
+        <LinearLayout
+            android:id="@+id/menu_logout_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/margin_3dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/menu_home"
+                android:src="@drawable/menu_icon_logout" />
+
+            <com.android.handyman.view.TextViewPlus
+                android:id="@+id/menu_logout"
+                style="@style/menuTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/menu_logout"
+                app:customFont="@string/font_regular" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/menu_home"
+                android:src="@drawable/icon_arrow_left_dark" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/drak_gray" />
+
+        <LinearLayout
+            android:id="@+id/menu_about_service_at_home_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <com.android.handyman.view.TextViewPlus
+                android:id="@+id/menu_about_service_at_home"
+                style="@style/menuTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/menu_about_service_at_home"
+                app:customFont="@string/font_regular" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/menu_contact_support_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <com.android.handyman.view.TextViewPlus
+                android:id="@+id/menu_contact_support"
+                style="@style/menuTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/menu_contact_support"
+                app:customFont="@string/font_regular" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/menu_privacy_policy_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <com.android.handyman.view.TextViewPlus
+                android:id="@+id/menu_privacy_policy"
+                style="@style/menuTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/menu_privacy_policy"
+                app:customFont="@string/font_regular" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/menu_terms_and_conditions_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <com.android.handyman.view.TextViewPlus
+                android:id="@+id/menu_terms_and_conditions"
+                style="@style/menuTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/menu_terms_and_conditions"
+                app:customFont="@string/font_regular" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

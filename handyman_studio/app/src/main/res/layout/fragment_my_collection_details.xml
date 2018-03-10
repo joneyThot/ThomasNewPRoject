@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/profile_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_top_1"
+        android:background="@color/light_blue"
+        android:orientation="horizontal"
+        android:padding="@dimen/margin_top_1"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.4"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/my_collection_details_profile_img"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/avtar_images" />
+
+                <com.handy.view.TextViewPlus
+                    android:id="@+id/my_collection_details_name_profile_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/my_collection_details_profile_img"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="@dimen/margin_top"
+                    android:text="sdfsd"
+                    android:textColor="@color/drak_gray"
+                    app:customFont="@string/font_medium" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="@dimen/margin_top"
+            android:layout_marginLeft="@dimen/margin_top_1"
+            android:layout_marginTop="@dimen/margin_top"
+            android:layout_weight="0.6"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/livOrderId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/margin_top"
+                android:orientation="horizontal">
+
+                <com.handy.view.TextViewPlus
+                    android:id="@+id/my_collection_details_order_id_for_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="Order ID: "
+                    android:textColor="@color/hire_for_color"
+                    android:textSize="@dimen/margin_top_1"
+                    android:textStyle="italic"
+                    app:customFont="@string/font_regular" />
+
+                <com.handy.view.TextViewPlus
+                    android:id="@+id/my_collection_details_order_id_for_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text=""
+                    android:textColor="@color/title_color"
+                    android:textSize="@dimen/margin_top_1"
+                    android:textStyle="italic"
+                    app:customFont="@string/font_medium" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/livOrderDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/margin_2dp"
+                android:orientation="horizontal">
+
+                <com.handy.view.TextViewPlus
+                    android:id="@+id/my_collection_details_order_date_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="Order date: "
+                    android:textColor="@color/hire_for_color"
+                    android:textSize="@dimen/margin_top_1"
+                    android:textStyle="italic"
+                    app:customFont="@string/font_regular" />
+
+                <com.handy.view.TextViewPlus
+                    android:id="@+id/my_collection_details_order_date_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_top"
+                    android:text=""
+                    android:textColor="@color/hire_for_color"
+                    android:textSize="@dimen/margin_top_1"
+                    app:customFont="@string/font_medium" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/livAmount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/margin_2dp"
+                android:orientation="horizontal">
+
+                <com.handy.view.TextViewPlus
+                    android:id="@+id/my_collection_details_amount_txt_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="Amount: "
+                    android:textColor="@color/hire_for_color"
+                    android:textSize="@dimen/margin_top_1"
+                    android:textStyle="italic"
+                    app:customFont="@string/font_regular" />
+
+                <com.handy.view.TextViewPlus
+                    android:id="@+id/my_collection_details_amount_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/hire_for_color"
+                    android:textSize="@dimen/margin_top_1"
+                    app:customFont="@string/font_medium" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/livDiscount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/margin_2dp"
+                android:orientation="horizontal">
+
+                <com.handy.view.TextViewPlus
+                    android:id="@+id/my_collection_details_discount_txt_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="Discount: "
+                    android:textColor="@color/hire_for_color"
+                    android:textSize="@dimen/margin_top_1"
+                    android:textStyle="italic"
+                    app:customFont="@string/font_regular" />
+
+                <com.handy.view.TextViewPlus
+                    android:id="@+id/my_collection_details_discount_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/hire_for_color"
+                    android:textSize="@dimen/margin_top_1"
+                    app:customFont="@string/font_medium" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/livCredits"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/margin_2dp"
+                android:orientation="horizontal">
+
+                <com.handy.view.TextViewPlus
+                    android:id="@+id/my_collection_details_credit_txt_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="Coin: "
+                    android:textColor="@color/hire_for_color"
+                    android:textSize="@dimen/margin_top_1"
+                    android:textStyle="italic"
+                    app:customFont="@string/font_regular" />
+
+                <com.handy.view.TextViewPlus
+                    android:id="@+id/my_collection_details_credit_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/hire_for_color"
+                    android:textSize="@dimen/margin_top_1"
+                    app:customFont="@string/font_medium" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/margin_top_1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/my_collection_details_chat_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/margin_top_0"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/icon_chat"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/my_collection_details_call_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/margin_top_0"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/icon_call" />
+
+                <ImageView
+                    android:id="@+id/my_collection_details_map_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/margin_top_0"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/icon_location" />
+
+                <ImageView
+                    android:id="@+id/my_collection_details_report_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/icon_report"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scroll_view_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_layout"
+        android:layout_marginTop="@dimen/margin_top"
+        android:paddingBottom="@dimen/margin_top_1">
+
+        <LinearLayout
+            android:id="@+id/profil_info_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/scroll_view_layout"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/margin_top_10"
+            android:orientation="vertical"
+            android:padding="@dimen/margin_top_10">
+
+            <com.handy.view.TextViewPlus
+                android:id="@+id/my_collection_details_job_description_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="@string/hire_customer_job_description"
+                android:textColor="@color/title_color"
+                android:textSize="@dimen/margin_top_1"
+                android:visibility="gone"
+                app:customFont="@string/font_regular" />
+
+            <com.handy.view.TextViewPlus
+                android:id="@+id/my_collection_details_job_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="@string/hire_customer_job_description"
+                android:textColor="@color/menu_text_color"
+                android:textSize="@dimen/margin_top_18"
+                android:visibility="gone"
+                app:customFont="@string/font_regular" />
+
+            <com.handy.view.TextViewPlus
+                android:id="@+id/my_collection_details_date_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_top_1"
+                android:singleLine="true"
+                android:text="@string/hire_customer_appointment_date"
+                android:textColor="@color/title_color"
+                android:textSize="@dimen/margin_top_1"
+                android:visibility="gone"
+                app:customFont="@string/font_regular" />
+
+            <com.handy.view.TextViewPlus
+                android:id="@+id/my_collection_details_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="@string/hire_customer_date"
+                android:textColor="@color/menu_text_color"
+                android:textSize="@dimen/margin_top_18"
+                android:visibility="gone"
+                app:customFont="@string/font_regular" />
+
+            <com.handy.view.TextViewPlus
+                android:id="@+id/my_collection_details_time_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_top_1"
+                android:singleLine="true"
+                android:text="@string/hire_customer_appointment_time"
+                android:textColor="@color/title_color"
+                android:textSize="@dimen/margin_top_1"
+                android:visibility="gone"
+                app:customFont="@string/font_regular" />
+
+            <com.handy.view.TextViewPlus
+                android:id="@+id/my_collection_details_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="@string/hire_customer_time"
+                android:textColor="@color/menu_text_color"
+                android:textSize="@dimen/margin_top_18"
+                android:visibility="gone"
+                app:customFont="@string/font_regular" />
+
+            <com.handy.view.TextViewPlus
+                android:id="@+id/my_collection_details_contact_person_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_top_1"
+                android:singleLine="true"
+                android:text="@string/hire_customer_contact_person"
+                android:textColor="@color/title_color"
+                android:textSize="@dimen/margin_top_1"
+                android:visibility="gone"
+                app:customFont="@string/font_regular" />
+
+            <com.handy.view.TextViewPlus
+                android:id="@+id/my_collection_details_contact_person"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="@string/hire_customer_contact_person"
+                android:textColor="@color/menu_text_color"
+                android:textSize="@dimen/margin_top_18"
+                android:visibility="gone"
+                app:customFont="@string/font_regular" />
+
+            <com.handy.view.TextViewPlus
+                android:id="@+id/my_collection_details_contact_no_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_top_1"
+                android:singleLine="true"
+                android:text="@string/hire_customer_contact_no"
+                android:textColor="@color/title_color"
+                android:textSize="@dimen/margin_top_1"
+                android:visibility="gone"
+                app:customFont="@string/font_regular" />
+
+            <com.handy.view.TextViewPlus
+                android:id="@+id/my_collection_details_contact_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="@string/hire_customer_contact_no"
+                android:textColor="@color/menu_text_color"
+                android:textSize="@dimen/margin_top_18"
+                android:visibility="gone"
+                app:customFont="@string/font_regular" />
+
+            <com.handy.view.TextViewPlus
+                android:id="@+id/my_collection_details_address_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_top_1"
+                android:singleLine="true"
+                android:text="@string/hire_customer_address"
+                android:textColor="@color/title_color"
+                android:textSize="@dimen/margin_top_1"
+                android:visibility="gone"
+                app:customFont="@string/font_regular" />
+
+            <com.handy.view.TextViewPlus
+                android:id="@+id/my_collection_details_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hire_customer_address"
+                android:textColor="@color/menu_text_color"
+                android:textSize="@dimen/margin_top_18"
+                android:visibility="gone"
+                app:customFont="@string/font_regular" />
+
+            <com.handy.view.TextViewPlus
+                android:id="@+id/my_collection_details_requirment_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_top_1"
+                android:singleLine="true"
+                android:text="@string/hire_customer_requirment"
+                android:textColor="@color/title_color"
+                android:textSize="@dimen/margin_top_1"
+                android:visibility="gone"
+                app:customFont="@string/font_regular" />
+
+            <com.handy.view.TextViewPlus
+                android:id="@+id/my_collection_details_requirment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hire_customer_requirment"
+                android:textColor="@color/menu_text_color"
+                android:textSize="@dimen/margin_top_18"
+                android:visibility="gone"
+                app:customFont="@string/font_regular" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

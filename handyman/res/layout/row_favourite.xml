@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/margin_top_10" >
+
+    <ImageView
+        android:id="@+id/fav_img"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="left"
+        android:scaleType="fitXY"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/avtar_fav_img" />
+
+    <com.android.handy.view.TextViewPlus
+        android:id="@+id/favourite_handyman_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_top_10"
+        android:layout_toRightOf="@id/fav_img"
+        android:singleLine="true"
+        android:text="Mr. John Doe"
+        android:textColor="@color/subcategory_color"
+        android:textSize="@dimen/margin_top_1"
+        app:customFont="@string/font_medium" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="@dimen/margin_top"
+        android:scaleType="fitXY"
+        android:src="@drawable/icon_arrow_left_dark" />
+
+    <ImageView
+        android:id="@+id/fav_img_1"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/fav_img"
+        android:layout_gravity="left"
+        android:scaleType="fitXY"
+        android:src="@drawable/avtar_fav_img"
+        android:visibility="invisible" />
+
+    <com.android.handy.view.TextViewPlus
+        android:id="@+id/favourite_handyman_category_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_top_10"
+        android:layout_toRightOf="@id/fav_img_1"
+        android:layout_below="@id/favourite_handyman_text"
+        android:singleLine="true"
+        android:padding="@dimen/margin_2dp"
+        android:text="Electrician"
+        android:textColor="@color/drak_green"
+        android:textSize="@dimen/margin_top_10"
+        app:customFont="@string/font_medium" />
+
+</RelativeLayout>

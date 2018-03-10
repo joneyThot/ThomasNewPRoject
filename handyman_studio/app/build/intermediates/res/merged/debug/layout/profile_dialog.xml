@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <com.handy.view.TextViewPlus
+        android:id="@+id/txtChangePassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_top"
+        android:padding="@dimen/margin_top_10"
+        android:text="Change Password  "
+        android:textColor="@color/subcategory_color"
+        android:textSize="@dimen/margin_top_1"
+        app:customFont="@string/font_regular" />
+
+
+</LinearLayout>

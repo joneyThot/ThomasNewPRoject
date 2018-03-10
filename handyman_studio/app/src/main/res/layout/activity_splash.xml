@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#D74F4F"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/logo_partner_xxxhdpi" />
+
+    <com.handy.view.TextViewPlus
+        android:id="@+id/txtCheckInternet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:padding="@dimen/margin_top_10"
+        android:background="@color/white"
+        android:text="@string/connection"
+        android:textColor="@color/black"
+        android:textSize="@dimen/review_title_text_size"
+        app:customFont="@string/font_regular" />
+
+</FrameLayout>

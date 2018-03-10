@@ -1,0 +1,202 @@
+[
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/handyman_studio/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_tint.xml",
+        "source": "/home/ctpl126/.android/build-cache/1455510ff71d8982280a28facbc92d0df14081f6/output/res/color/common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/build/intermediates/res/merged/debug/color/abc_tint_spinner.xml",
+        "source": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/color/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/handyman_studio/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
+        "source": "/home/ctpl126/.android/build-cache/1336f0dff2884ab92b5bac343967bb8d58795f6d/output/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/handyman_studio/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_light.xml",
+        "source": "/home/ctpl126/.android/build-cache/1336f0dff2884ab92b5bac343967bb8d58795f6d/output/res/color/abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/build/intermediates/res/merged/debug/color/abc_btn_colored_borderless_text_material.xml",
+        "source": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/color/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/handyman_studio/app/build/intermediates/res/merged/debug/color/abc_btn_colored_borderless_text_material.xml",
+        "source": "/home/ctpl126/.android/build-cache/1336f0dff2884ab92b5bac343967bb8d58795f6d/output/res/color/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/build/intermediates/res/merged/debug/color/abc_btn_colored_text_material.xml",
+        "source": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/color/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
+        "source": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/handyman_studio/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_light.xml",
+        "source": "/home/ctpl126/.android/build-cache/1455510ff71d8982280a28facbc92d0df14081f6/output/res/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/handyman_studio/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
+        "source": "/home/ctpl126/.android/build-cache/1336f0dff2884ab92b5bac343967bb8d58795f6d/output/res/color/switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/handyman_studio/app/build/intermediates/res/merged/debug/color/abc_tint_btn_checkable.xml",
+        "source": "/home/ctpl126/.android/build-cache/1336f0dff2884ab92b5bac343967bb8d58795f6d/output/res/color/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/handyman_studio/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
+        "source": "/home/ctpl126/.android/build-cache/1336f0dff2884ab92b5bac343967bb8d58795f6d/output/res/color/abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/handyman_studio/app/build/intermediates/res/merged/debug/color/abc_tint_switch_track.xml",
+        "source": "/home/ctpl126/.android/build-cache/1336f0dff2884ab92b5bac343967bb8d58795f6d/output/res/color/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/handyman_studio/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/home/ctpl126/.android/build-cache/1336f0dff2884ab92b5bac343967bb8d58795f6d/output/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/handyman_studio/app/build/intermediates/res/merged/debug/color/wallet_secondary_text_holo_dark.xml",
+        "source": "/home/ctpl126/.android/build-cache/5f81d01b6855d3812963ecd1e9a94b4123e9d84e/output/res/color/wallet_secondary_text_holo_dark.xml"
+    },
+    {
+        "merged": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_light.xml",
+        "source": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.1/res/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_tint.xml",
+        "source": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.1/res/color/common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_dark.xml",
+        "source": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.1/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/build/intermediates/res/merged/debug/color/wallet_primary_text_holo_light.xml",
+        "source": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/10.2.1/res/color/wallet_primary_text_holo_light.xml"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/handyman_studio/app/build/intermediates/res/merged/debug/color/abc_tint_edittext.xml",
+        "source": "/home/ctpl126/.android/build-cache/1336f0dff2884ab92b5bac343967bb8d58795f6d/output/res/color/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/handyman_studio/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
+        "source": "/home/ctpl126/.android/build-cache/1336f0dff2884ab92b5bac343967bb8d58795f6d/output/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
+        "source": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/color/abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
+        "source": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/color/abc_search_url_text.xml"
+    },
+    {
+        "merged": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_light.xml",
+        "source": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/color/abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/handyman_studio/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
+        "source": "/home/ctpl126/.android/build-cache/1336f0dff2884ab92b5bac343967bb8d58795f6d/output/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/handyman_studio/app/build/intermediates/res/merged/debug/color/abc_tint_spinner.xml",
+        "source": "/home/ctpl126/.android/build-cache/1336f0dff2884ab92b5bac343967bb8d58795f6d/output/res/color/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/build/intermediates/res/merged/debug/color/abc_tint_seek_thumb.xml",
+        "source": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/color/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/handyman_studio/app/build/intermediates/res/merged/debug/color/abc_btn_colored_text_material.xml",
+        "source": "/home/ctpl126/.android/build-cache/1336f0dff2884ab92b5bac343967bb8d58795f6d/output/res/color/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/handyman_studio/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
+        "source": "/home/ctpl126/.android/build-cache/1336f0dff2884ab92b5bac343967bb8d58795f6d/output/res/color/abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
+        "source": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/color/switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/handyman_studio/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
+        "source": "/home/ctpl126/.android/build-cache/1336f0dff2884ab92b5bac343967bb8d58795f6d/output/res/color/abc_search_url_text.xml"
+    },
+    {
+        "merged": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/build/intermediates/res/merged/debug/color/wallet_secondary_text_holo_dark.xml",
+        "source": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/10.2.1/res/color/wallet_secondary_text_holo_dark.xml"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/handyman_studio/app/build/intermediates/res/merged/debug/color/wallet_primary_text_holo_light.xml",
+        "source": "/home/ctpl126/.android/build-cache/5f81d01b6855d3812963ecd1e9a94b4123e9d84e/output/res/color/wallet_primary_text_holo_light.xml"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/handyman_studio/app/build/intermediates/res/merged/debug/color/abc_tint_seek_thumb.xml",
+        "source": "/home/ctpl126/.android/build-cache/1336f0dff2884ab92b5bac343967bb8d58795f6d/output/res/color/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/build/intermediates/res/merged/debug/color/abc_tint_btn_checkable.xml",
+        "source": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/color/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",
+        "source": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/color/abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
+        "source": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/build/intermediates/res/merged/debug/color/abc_tint_switch_thumb.xml",
+        "source": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/color/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
+        "source": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/color/abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/handyman_studio/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/home/ctpl126/.android/build-cache/1336f0dff2884ab92b5bac343967bb8d58795f6d/output/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/handyman_studio/app/build/intermediates/res/merged/debug/color/abc_tint_switch_thumb.xml",
+        "source": "/home/ctpl126/.android/build-cache/1336f0dff2884ab92b5bac343967bb8d58795f6d/output/res/color/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/handyman_studio/app/build/intermediates/res/merged/debug/color/abc_tint_default.xml",
+        "source": "/home/ctpl126/.android/build-cache/1336f0dff2884ab92b5bac343967bb8d58795f6d/output/res/color/abc_tint_default.xml"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/handyman_studio/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",
+        "source": "/home/ctpl126/.android/build-cache/1336f0dff2884ab92b5bac343967bb8d58795f6d/output/res/color/abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/build/intermediates/res/merged/debug/color/abc_tint_default.xml",
+        "source": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/color/abc_tint_default.xml"
+    },
+    {
+        "merged": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/build/intermediates/res/merged/debug/color/abc_tint_edittext.xml",
+        "source": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/color/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/build/intermediates/res/merged/debug/color/abc_tint_switch_track.xml",
+        "source": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/color/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
+        "source": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/handyman_studio/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_dark.xml",
+        "source": "/home/ctpl126/.android/build-cache/1455510ff71d8982280a28facbc92d0df14081f6/output/res/color/common_google_signin_btn_text_dark.xml"
+    }
+]

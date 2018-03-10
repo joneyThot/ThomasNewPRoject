@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/margin_top_10">
+
+
+   <!-- <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView"
+        style="@style/LoginEditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/margin_top_10"
+        android:layout_marginTop="@dimen/margin_top_10"
+        android:background="@android:color/white"
+        android:hint="Enter Place Here" />-->
+
+    <EditText
+        android:id="@+id/autoCompleteTextView"
+        style="@style/LoginEditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_3dp"
+        android:background="@android:color/white"
+        android:inputType="textCapSentences"
+        android:hint="Enter Place Here" />
+
+    <ListView
+        android:id="@+id/ltvPlace"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/autoCompleteTextView"
+        android:divider="@null"
+        android:layout_marginTop="@dimen/margin_top_1"
+        android:dividerHeight="1dip" />
+
+
+</RelativeLayout>

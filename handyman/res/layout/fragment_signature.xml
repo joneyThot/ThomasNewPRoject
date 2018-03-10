@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/margin_top_10" >
+
+    <EditText
+        android:id="@+id/signature_job_title_text"
+        style="@style/LoginEditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:ems="10"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:hint="@string/signature_job_title"
+        android:inputType="textCapSentences"
+        android:textColorHint="@color/drak_gray" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/signature_amount_text"
+        style="@style/LoginEditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top"
+        android:ems="10"
+        android:hint="@string/signature_amount"
+        android:inputType="number"
+        android:textColorHint="@color/drak_gray" >
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/signature_discount"
+            style="@style/LoginEditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:maxLength="2"
+            android:hint="@string/signature_discount"
+            android:inputType="number"
+            android:textColorHint="@color/drak_gray" >
+        </EditText>
+        
+        <com.android.handy.view.TextViewPlus
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="%"
+            android:layout_marginRight="@dimen/margin_top_1"
+            android:textColor="@color/drak_gray"
+            app:customFont="@string/font_regular" />
+
+        <EditText
+            android:id="@+id/signature_credits"
+            style="@style/LoginEditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/signature_credits"
+            android:inputType="number"
+            android:textColorHint="@color/drak_gray" >
+        </EditText>
+
+        <com.android.handy.view.TextViewPlus
+            android:id="@+id/apply"
+            style="@style/ButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_top_10"
+            android:layout_weight="1"
+            android:text="@string/apply"
+            android:textColor="@color/white"
+            android:textSize="@dimen/margin_top_2"
+            app:customFont="@string/font_regular" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/signature_total_amount_text"
+        style="@style/LoginEditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:ems="10"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:hint="@string/signature_total_amount"
+        android:inputType="number"
+        android:textColorHint="@color/drak_gray" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/signature_name_text"
+        style="@style/LoginEditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top"
+        android:ems="10"
+        android:hint="@string/signature_name"
+        android:inputType="textCapSentences"
+        android:textColorHint="@color/drak_gray" >
+    </EditText>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top"
+        android:padding="@dimen/margin_top_1" >
+
+        <com.android.handy.view.TextViewPlus
+            android:id="@+id/signature_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_vertical"
+            android:text="@string/signature"
+            android:textColor="@color/drak_gray"
+            android:textSize="@dimen/venue_header_text_size"
+            android:visibility="visible"
+            app:customFont="@string/font_regular" />
+
+        <LinearLayout
+            android:id="@+id/image_layout"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <ImageView
+                android:id="@+id/signature_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/avtar_images" />
+        </LinearLayout>
+
+        <com.android.handy.view.TextViewPlus
+            android:id="@+id/signature_btn"
+            style="@style/ButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/margin_top_2"
+            android:layout_marginRight="@dimen/margin_top_2"
+            android:text="@string/signature"
+            android:textColor="@color/white"
+            android:textSize="@dimen/margin_top_2"
+            app:customFont="@string/font_regular" />
+    </RelativeLayout>
+
+    <com.android.handy.view.TextViewPlus
+        android:id="@+id/signature_submit_Button"
+        style="@style/ButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_top_1"
+        android:text="@string/forgot_submit"
+        android:textColor="@color/white"
+        app:customFont="@string/font_medium" />
+
+</LinearLayout>

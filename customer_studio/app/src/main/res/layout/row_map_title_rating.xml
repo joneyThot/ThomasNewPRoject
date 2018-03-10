@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/margin_top_10" >
+
+    <com.handyman.view.TextViewPlus
+        android:id="@+id/handyman_name_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="Mr. Jackey Kabra"
+        android:textColor="@color/drak_green"
+        android:textSize="@dimen/margin_top_2"
+        app:customFont="@string/font_regular" />
+
+    <com.handyman.view.TextViewPlus
+        android:id="@+id/handyman_details_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="jackey.cmarix"
+        android:textColor="@color/black"
+        android:textSize="@dimen/appointment_details"
+        app:customFont="@string/font_regular" />
+
+    <RatingBar
+        android:id="@+id/ratingCount"
+        style="@style/CustomRatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:isIndicator="true"
+        android:numStars="5"
+        android:rating="0"
+        android:stepSize="0.01" />
+
+    <LinearLayout
+        android:id="@+id/busy_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+         android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <com.handyman.view.TextViewPlus
+            android:id="@+id/handyman_buzy_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="Busy"
+            android:layout_weight="1"
+            android:textColor="@color/title_color"
+            android:textSize="@dimen/appointment_details"
+            app:customFont="@string/font_regular" />
+
+        <com.handyman.view.TextViewPlus
+            android:id="@+id/read_buzy_textview"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@drawable/bg_red"
+            android:textSize="@dimen/appointment_details"
+            app:customFont="@string/font_regular" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/lv1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#217AB2"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_3dp">
+
+        <com.handyman.view.TextViewPlus
+            android:id="@+id/name_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="@dimen/margin_top_10"
+            app:customFont="@string/font_regular" />
+
+        <com.handyman.view.TextViewPlus
+            android:id="@+id/birthdate_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_3dp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/margin_top_10"
+            app:customFont="@string/font_regular" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/cradits_dialog_img"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/use_credits" />
+
+        <com.handyman.view.TextViewPlus
+            android:id="@+id/txtCoinsValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_top"
+            android:text="* You will use 2 Coins"
+            android:textColor="@color/white"
+            android:layout_gravity="right"
+            android:textSize="@dimen/margin_top_10"
+            app:customFont="@string/font_regular" />
+
+
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.handyman.view.TextViewPlus
+            android:id="@+id/cradits_dialog_confirm_btn"
+            style="@style/ButtonDialogStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cradits_dialog_confirm"
+            android:textColor="@color/white"
+            app:customFont="@string/font_medium" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/white" />
+
+        <com.handyman.view.TextViewPlus
+            android:id="@+id/cradits_dialog_cancel_btn"
+            style="@style/ButtonDialogStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/hover_btn_xxxhdpi"
+            android:text="@string/cradits_dialog_cancel"
+            android:textColor="@color/white"
+            app:customFont="@string/font_medium" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+
+    <style name="CustomActivityTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:statusBarColor">@color/hire_cancelled_color</item>
+        <item name="android:windowDisablePreview">true</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center"
+    android:padding="@dimen/margin_2dp"
+     >
+
+    <com.handyman.view.TextViewPlus
+        android:id="@+id/row_cradits_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_weight="1"
+        android:textColor="@color/subcategory_color"
+        android:textSize="@dimen/margin_top_2"
+         android:layout_marginLeft="@dimen/margin_top_10"
+        app:customFont="@string/font_regular"
+        android:visibility="gone"/>
+
+    <com.handyman.view.TextViewPlus
+        android:id="@+id/row_cradits_date_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/margin_top_1"
+        android:background="@drawable/credit_green_bg"
+        android:padding="@dimen/margin_3dp"
+        android:paddingLeft="@dimen/margin_top"
+        android:paddingRight="@dimen/margin_top"
+        android:layout_margin="@dimen/margin_3dp"
+        android:visibility="gone"
+        app:customFont="@string/font_regular" />
+
+    <ImageView
+        android:id="@+id/row_cradits_remove_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/margin_top_10"
+        android:scaleType="fitXY"
+        android:visibility="gone"
+        android:src="@drawable/icon_close" />
+
+</LinearLayout>

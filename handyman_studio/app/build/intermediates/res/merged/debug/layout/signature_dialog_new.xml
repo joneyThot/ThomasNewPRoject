@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res"
+    android:id="@+id/linearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.handy.view.TextViewPlus
+            android:id="@+id/cancel"
+            style="@style/ButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/margin_top_0"
+            android:layout_weight="1"
+            android:text="Cancel"
+            android:textColor="@color/white"
+            app:customFont="@string/font_medium" />
+
+        <com.handy.view.TextViewPlus
+            android:id="@+id/clear"
+            style="@style/ButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/margin_top_0"
+            android:layout_weight="1"
+            android:padding="@dimen/margin_top_0"
+            android:text="Clear"
+            android:textColor="@color/white"
+            app:customFont="@string/font_medium" />
+
+        <com.handy.view.TextViewPlus
+            android:id="@+id/getsign"
+            style="@style/ButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/margin_top_0"
+            android:layout_weight="1"
+            android:padding="@dimen/margin_top_0"
+            android:text="Save"
+            android:textColor="@color/white"
+            app:customFont="@string/font_medium" />
+    </LinearLayout>
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <EditText
+                android:id="@+id/yourName"
+                style="@style/LoginEditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_top_10"
+                android:layout_marginTop="@dimen/margin_top"
+                android:ems="10"
+                android:hint="Enter Name"
+                android:inputType="textCapSentences"
+                android:maxLength="30"
+                android:singleLine="true"
+                android:textColorHint="@color/drak_gray"></EditText>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.handy.view.TextViewPlus
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="@dimen/margin_top_0"
+                android:padding="@dimen/margin_top_10"
+                android:paddingLeft="@dimen/margin_top_10"
+                android:text="Please Sign below ..."
+                android:textColor="@color/black"
+                android:textSize="@dimen/venue_header_text_size"
+                android:visibility="visible"
+                app:customFont="@string/font_regular" />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/margin_top_10"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:visibility="gone" />
+
+    <com.handy.view.InkView
+        android:id="@+id/ink"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:inkFlags="interpolation|responsiveWeight" />
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:paddingLeft="@dimen/margin_top_10"
+    android:paddingRight="@dimen/margin_top_10"
+    android:paddingTop="@dimen/margin_top_10">
+
+    <ImageView
+        android:id="@+id/imgMapIcon"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_gravity="left"
+        android:src="@drawable/maps_icon" />
+
+    <com.handyman.view.TextViewPlus
+        android:id="@+id/txtAreaName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_top_2"
+        android:layout_toRightOf="@id/imgMapIcon"
+        android:singleLine="true"
+        android:text="Saraspur"
+        android:textColor="@color/subcategory_color"
+        android:textSize="@dimen/margin_top_1"
+        app:customFont="@string/font_bold" />
+
+    <com.handyman.view.TextViewPlus
+        android:id="@+id/txtExtraText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtAreaName"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/imgMapIcon"
+        android:padding="@dimen/margin_2dp"
+        android:singleLine="true"
+        android:text="Ahmedabad Gujarat India"
+        android:textColor="@color/subcategory_color"
+        android:textSize="@dimen/margin_top_13"
+        app:customFont="@string/font_light" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@id/txtExtraText"
+        android:layout_marginLeft="@dimen/margin_top_5"
+        android:layout_marginTop="@dimen/margin_top"
+        android:background="@color/drak_gray" />
+
+</RelativeLayout>

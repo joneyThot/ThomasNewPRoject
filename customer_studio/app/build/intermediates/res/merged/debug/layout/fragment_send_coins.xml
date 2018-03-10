@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/titlebar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/topbar">
+
+        <ImageView
+            android:id="@+id/push_backBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:padding="@dimen/margin_top_10"
+            android:src="@drawable/icon_back" />
+
+        <com.handyman.view.TextViewPlus
+            android:id="@+id/push_title_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:text="@string/send_coins_title"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/margin_top_2"
+            app:customFont="@string/font_bold" />
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/titlebar"
+        android:layout_gravity="bottom">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/margin_top_1"
+            android:orientation="vertical">
+
+
+            <com.handyman.view.TextViewPlus
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_top_1"
+                android:gravity="center_vertical"
+                android:text="@string/send_coins_in_payment"
+                android:textColor="@color/title_color"
+                android:textSize="@dimen/margin_top_1"
+                app:customFont="@string/font_regular" />
+
+            <EditText
+                android:id="@+id/edtCoins"
+                style="@style/LoginEditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:ems="10"
+                android:hint="@string/send_enter_coins"
+                android:inputType="number"
+                android:maxLength="3" />
+
+
+            <com.handyman.view.TextViewPlus
+                android:id="@+id/btnConfirm"
+                style="@style/ButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_top_5"
+                android:layout_marginTop="@dimen/margin_top_4"
+                android:text="@string/cradits_dialog_confirm"
+                android:textColor="@color/white"
+                app:customFont="@string/font_medium" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">1085788808372-kb0e0kn832hcrgp93496bes3e8icpl5u.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://serviceathome-1251.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1085788808372</string>
+    <string name="google_api_key" translatable="false">AIzaSyCpeLc43kVZzz8Uo6KxriquiEzL003ZvoI</string>
+    <string name="google_app_id" translatable="false">1:1085788808372:android:999a6cdbae207507</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCpeLc43kVZzz8Uo6KxriquiEzL003ZvoI</string>
+    <string name="google_storage_bucket" translatable="false">serviceathome-1251.appspot.com</string>
+</resources>

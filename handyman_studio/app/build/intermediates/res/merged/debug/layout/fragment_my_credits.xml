@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/margin_top_1"
+            android:orientation="vertical">
+
+            <com.handy.view.TextViewPlus
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="@string/total_credits"
+                android:textColor="@color/title_color"
+                android:textSize="@dimen/margin_top_1"
+                app:customFont="@string/font_regular" />
+
+            <com.handy.view.TextViewPlus
+                android:id="@+id/txtDisplayCredits"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="0"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/margin_top_2"
+                app:customFont="@string/font_regular" />
+
+
+            <com.handy.view.TextViewPlus
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_top_3"
+                android:gravity="center_vertical"
+                android:text="@string/convert_credit_cash"
+                android:textColor="@color/title_color"
+                android:textSize="@dimen/margin_top_1"
+                app:customFont="@string/font_regular" />
+
+            <EditText
+                android:id="@+id/edtCreditAmount"
+                style="@style/LoginEditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:ems="10"
+                android:hint="@string/enter_credit_amount"
+                android:inputType="number"
+                android:maxLength="4" />
+
+            <LinearLayout
+                android:id="@+id/livTotalAmount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_top_4"
+                android:orientation="vertical">
+
+                <com.handy.view.TextViewPlus
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="@string/total_amount"
+                    android:textColor="@color/title_color"
+                    android:textSize="@dimen/margin_top_1"
+                    app:customFont="@string/font_regular" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:contentDescription="@string/menu_home"
+                        android:src="@drawable/icon_rupee" />
+
+                    <com.handy.view.TextViewPlus
+                        android:id="@+id/txtTotalAmount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/gray"
+                        android:text="0/-"
+                        android:textSize="@dimen/margin_top_2"
+                        app:customFont="@string/font_regular" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <com.handy.view.TextViewPlus
+                android:id="@+id/btnSubmit"
+                style="@style/ButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_top_5"
+                android:layout_marginTop="@dimen/margin_top_4"
+                android:text="@string/cradits_dialog_confirm"
+                android:textColor="@color/white"
+                app:customFont="@string/font_medium" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

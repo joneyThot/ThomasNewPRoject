@@ -1,0 +1,330 @@
+[
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/maps_icon.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/maps_icon.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_contact_support.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/icon_contact_support.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_elctrical.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/icon_elctrical.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/pin_icon.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/pin_icon.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/menu_icon_advertise.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/menu_icon_advertise.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/credit_blue_bg.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/credit_blue_bg.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/handyman_electrical_xxxhdpi.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/handyman_electrical_xxxhdpi.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/menu_icon_my_profile.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/menu_icon_my_profile.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_location.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/icon_location.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/menu_icon_hirings.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/menu_icon_hirings.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/avtar_fav_img.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/avtar_fav_img.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/checkbox_checked.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/checkbox_checked.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/checkbox_normal.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/checkbox_normal.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/service_electrial.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/service_electrial.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/small_logo.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/small_logo.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/menu_icon_home.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/menu_icon_home.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/input_border.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/input_border.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/handyman_plumbing_xxxhdpi.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/handyman_plumbing_xxxhdpi.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/menu_icon_credits.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/menu_icon_credits.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_close_back.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/icon_close_back.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_cancel.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/icon_cancel.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/service_carpenter.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/service_carpenter.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_accepted.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/icon_accepted.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_report.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/icon_report.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_plumber.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/icon_plumber.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/credit_green_bg.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/credit_green_bg.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_start.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/icon_start.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_carpenter.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/icon_carpenter.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/handyman_carpenter_xxxhdpi.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/handyman_carpenter_xxxhdpi.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/handyman_mascot.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/handyman_mascot.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/service_plumbing.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/service_plumbing.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/username.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/username.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_close.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/icon_close.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/radio_checked.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/radio_checked.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_back.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/icon_back.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/use_credits.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/use_credits.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_call.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/icon_call.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_hold_accepted.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/icon_hold_accepted.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/menu_icon_fav.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/menu_icon_fav.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/handyman_cleaning_xxxhdpi.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/handyman_cleaning_xxxhdpi.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/request_credit_btn.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/request_credit_btn.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_menu.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/icon_menu.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/menu_icon_settings.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/menu_icon_settings.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_calendar.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/icon_calendar.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_cleaner.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/icon_cleaner.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_arrow_left_dark.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/icon_arrow_left_dark.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_credits_light.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/icon_credits_light.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_clock.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/icon_clock.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_rating.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/icon_rating.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/menu_icon_map.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/menu_icon_map.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/password.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/password.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_refresh_xxxhdpi.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/icon_refresh_xxxhdpi.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_fav.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/icon_fav.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/sidemenu_icon.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/sidemenu_icon.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/login_box.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/login_box.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_nonfav.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/icon_nonfav.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_home_xxxhdpi.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/icon_home_xxxhdpi.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/radio_normal.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/radio_normal.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_arrow_down.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/icon_arrow_down.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_email.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/icon_email.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/btn_xxxhdpi.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/btn_xxxhdpi.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/handyman_default_xxxhdpi.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/handyman_default_xxxhdpi.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/register_btn.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/register_btn.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_gps.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/icon_gps.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/menu_icon_feedback.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/menu_icon_feedback.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/placeholder.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/placeholder.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_hold_cancelled.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/icon_hold_cancelled.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/avtar_images.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/avtar_images.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/menu_icon_logout.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/menu_icon_logout.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/topbar.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/topbar.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/splash_logo_xxxhdpi.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/splash_logo_xxxhdpi.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_search_fill.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/icon_search_fill.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_hold_completed.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/icon_hold_completed.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/comment_box.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/comment_box.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_chat.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/icon_chat.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_search.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/icon_search.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/pin_img.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/pin_img.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_cancelled.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/icon_cancelled.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/hover_btn_xxxhdpi.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/hover_btn_xxxhdpi.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/service_cleaning.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/service_cleaning.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_completed.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/icon_completed.png"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/credit_bg.png",
+        "source": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/src/main/res/drawable-xxxhdpi/credit_bg.png"
+    }
+]

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <com.handyman.view.TextViewPlus
+        android:id="@+id/atvPlaces"
+        style="@style/LoginEditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_top_10"
+        android:layout_marginTop="@dimen/margin_top_10"
+        android:background="@android:color/white"
+        android:completionThreshold="1"
+        android:hint="@string/enter_address_home"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btnConfirm"
+        android:layout_below="@+id/atvPlaces">
+
+        <fragment
+            android:id="@+id/map_address"
+            android:name="com.handyman.view.MySupportMapFragment"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            tools:context="com.handyman.fragment.AddressMapFragment" />
+
+
+        <LinearLayout
+            android:id="@+id/locationMarker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="-110dp"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/address_layout"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/comment_box"
+                android:gravity="center"
+                android:paddingLeft="@dimen/margin_top"
+                android:paddingRight="@dimen/margin_top"
+                android:orientation="horizontal">
+
+                <ProgressBar
+                    android:id="@+id/locationLoading"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_gravity="center_vertical"
+                    android:visibility="gone"
+                     />
+
+                <TextView
+                    android:id="@+id/locationMarkertext"
+                    android:layout_width="310dp"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="Set nearby location "
+                    android:textColor="@android:color/black"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="@dimen/margin_top_10"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/imageMarker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="-5dp"
+                android:src="@drawable/pin_img" />
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+    <com.handyman.view.TextViewPlus
+        android:id="@+id/btnConfirm"
+        style="@style/ButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:text="@string/address_map_done"
+        android:textColor="@color/white"
+        app:customFont="@string/font_regular" />
+
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/margin_top_10" >
+
+    <com.android.handy.view.TextViewPlus
+        android:id="@+id/review_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:singleLine="true"
+        android:text="this is new card"
+        android:textColor="@color/title_color"
+        android:textSize="@dimen/margin_top_1"
+        app:customFont="@string/font_medium" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/review_description"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginTop="@dimen/margin_top"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/menu_home"
+            android:src="@drawable/icon_calendar" />
+
+        <com.android.handy.view.TextViewPlus
+            android:id="@+id/review_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_top"
+            android:layout_weight="1"
+            android:text="12/11/2015"
+            android:textColor="@color/hire_for_color"
+            android:textSize="@dimen/calender_day_textsize"
+            app:customFont="@string/font_italic" />
+
+        <RatingBar
+            android:id="@+id/review_rating"
+            style="@style/CustomRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:rating="0"
+            android:stepSize="1" />
+    </LinearLayout>
+
+</RelativeLayout>

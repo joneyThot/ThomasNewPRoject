@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Services@Home-Partner</string>
+    <string name="facebook_app_id"></string>
+    <string name="map_api_key">AIzaSyBO4n5ipUQ5vn19Sjy9EtCoUJwY5EUbGCM</string>
+
+    <!-- FONTS -->
+    <string name="font_regular">Roboto-Regular.ttf</string>
+    <string name="font_thin">Roboto-Thin.ttf</string>
+    <string name="font_medium">Roboto-Medium.ttf</string>
+    <string name="font_bold">Roboto-Bold.ttf</string>
+    <string name="font_italic">Roboto-LightItalic.ttf</string>
+    <string name="font_thin_italic">Roboto-ThinItalic_0.ttf</string>
+    <string name="font_light">Roboto-Light_0.ttf</string>
+
+    <!-- COMMON -->
+    <string name="loading">Loading...</string>
+    <string name="try_again">Try again!</string>
+    <string name="connection">Internet connection is not available.</string>
+    <string name="alert">Alert</string>
+    <string name="dummy_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</string>
+    <string name="otp_msg">You will get OTP shortly...</string>
+
+    <!-- Splash_two -->
+    <string name="splash_text">Lorem ipsum dolor it asem</string>
+    <string name="login">LOGIN</string>
+    <string name="sign_up">SIGN UP</string>
+
+    <!-- Login Activity -->
+    <string name="login_mobile_no">Mobile Number</string>
+    <string name="login_password">Password</string>
+    <string name="dont_have_account">Don\'t have an Account?</string>
+    <string name="register_now">Register Now</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="resend_otp">Resend OTP</string>
+
+    <!-- Register Activity -->
+    <string name="register_mobile_no">User id (Mobile number)</string>
+    <string name="enter_mobile_no">Please Enter Mobile Number</string>
+    <string name="enter_mobile_no_length">Mobile Number length must be 10 numbers.</string>
+    <string name="register_first_name">First Name</string>
+    <string name="enter_first_name">Please Enter First Name</string>
+    <string name="register_last_name">Last Name</string>
+    <string name="enter_last_name">Please Enter Last Name</string>
+    <string name="register_gender">Gender</string>
+    <string name="register_gender_male">Male</string>
+    <string name="register_gender_female">Female</string>
+    <string name="select_gender_female">Please Select Gender</string>
+    <string name="register_gender_birthdate">Birth Date</string>
+    <string name="select_gender_birthdate">Please Select Birth Date</string>
+    <string name="register_email">Email ID</string>
+    <string name="enter_email">Please enter e-mail.</string>
+    <string name="invalid_email">Please enter valid e-mail.</string>
+    <string name="register_whatsup_id">Whatsapp ID</string>
+    <string name="enter_whatsup_id">Please Enter Whatsapp ID</string>
+    <string name="check_whatsup_length">Whatsapp is too short (minimum is 10 characters).</string>
+    <string name="register_qualification">Qualification</string>
+    <string name="enter_qualification">Please Enter Qualification</string>
+    <string name="register_experience">Experience</string>
+    <string name="enter_experience">Please Enter Experience</string>
+    <string name="register_provider">provider</string>
+    <string name="register_password">Password</string>
+    <string name="enter_password">Please Enter Password</string>
+    <string name="enter_con_password">Please Enter Confirm Password</string>
+    <string name="check_password_length">Password length must be 8 characters.</string>
+    <string name="password_not_match">Password does not match.</string>
+    <string name="register_address">Address</string>
+    <string name="enter_address">Please Enter Address</string>
+    <string name="register_street_road">Street/Road</string>
+    <string name="enter_street_road">Please Enter Street/Road</string>
+    <string name="register_landmark">Landmark</string>
+    <string name="enter_landmark">Please Enter Landmark</string>
+    <string name="register_state">State</string>
+    <string name="select_state">Please Select State</string>
+    <string name="register_city">City</string>
+    <string name="select_city">Please Select City</string>
+    <string name="register_pincode">Pincode</string>
+    <string name="enter_pincode">Please Enter Pincode</string>
+    <string name="check_pincode_length">Pincode length must be 6 numbers.</string>
+    <string name="register_profile_pic">Profile pic</string>
+    <string name="register_browser">Browse...</string>
+    <string name="register_agree_text">I Argree</string>
+    <string name="register_privacy_policy"><u>Privacy Policy</u></string>
+    <string name="register_agree_terms_condition"><u>Terms &amp; Conditions</u></string>
+    <string name="checked_terms_condition">Please Checked Terms &amp; Conditions</string>
+
+    <!-- Change Password -->
+    <string name="change_new_password">New Password</string>
+    <string name="change_confirm_password">Confirm Password</string>
+    <string name="change_update_password">UPDATE PASSWORD</string>
+    <string name="change_password">CHANGE PASSWORD</string>
+
+    <!-- Forgot Password -->
+    <string name="forgot_enter_mobile_no">Enter Registered Mobile Number</string>
+    <string name="forgot_enter_otp_no">Enter OTP Number</string>
+    <string name="forgot_submit">SUBMIT</string>
+    <string name="forgot_pass">FORGOT PASSWORD</string>
+    <string name="otp">OTP PASSWORD</string>
+
+    <!-- Sliding Menu Activity -->
+    <string name="menu_home">Home</string>
+    <string name="menu_my_hirings">Orders</string>
+    <string name="menu_my_collection">Collections</string>
+    <string name="menu_my_credits">Reward Coins</string>
+    <string name="menu_my_profile">Profile</string>
+    <string name="menu_my_review">Review</string>
+    <string name="menu_request_status">Coins Request Status</string>
+    <string name="menu_feedback_suggestions">Feedback/Suggestions</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_about_service_at_home">About Service@Home</string>
+    <string name="menu_contact_support">Contact Support</string>
+    <string name="menu_privacy_policy">Privacy Policy</string>
+    <string name="menu_terms_and_conditions">Terms &amp; Conditions</string>
+    
+    <string name="menu_my_review_details">REVIEW DETAILS</string>
+
+    <!-- Searvice at Home Fragment -->
+    <string name="home_searvice_at_home">SERVICE @ HOME</string>
+    <string name="home_categories">Categories</string>
+    <string name="home_sub_categories">Sub Categories</string>
+    <string name="home_electrical">electrical</string>
+
+    <!-- Find Near By Handy Man -->
+    <string name="nearbyhandyman_id">Enter Handyman Name</string>
+    <string name="nearbyhandyman_no_details">No HandyMan Details </string>
+
+    <!-- Handyman Profile -->
+    <string name="hire_me">HIRE ME</string>
+    <string name="hire_age">Age</string>
+    <string name="hire_qualification">Qualification</string>
+    <string name="hire_jobdescription">Job Description</string>
+    <string name="hire_category">Category</string>
+    <string name="hire_sub_category">Sub Category</string>
+    <string name="hire_expertise">Expertise</string>
+    <string name="hire_experience">Experience</string>
+    <string name="hire_mobile_number">Mobile Number</string>
+    <string name="hire_watsapp_id">Whatsapp ID</string>
+    <string name="hire_email_id">Email ID</string>
+    <string name="hire_service_provider">Service Provider</string>
+    <string name="hire_address">Address</string>
+    <string name="hire_website">Website</string>
+    <string name="hire_status">Busy</string>
+
+    <!-- Hire Handyman -->
+    <string name="hire_handyman">HIRE HANDYMAN</string>
+    <string name="hire_handyman_text">All Feilds Are Rqequired</string>
+    <string name="hire_handyman_job_description">Job Description</string>
+    <string name="enter_job_description">Please Enter Job Description.</string>
+    <string name="hire_handyman_date">Enter Date</string>
+    <string name="enter_handyman_date">Please Select Date.</string>
+    <string name="hire_handyman_time">Enter Time</string>
+    <string name="enter_handyman_time">Please Select Time.</string>
+    <string name="hire_handyman_contact_person">Contact Person</string>
+    <string name="enter_contact_person">Please Enter Contact Person</string>
+    <string name="hire_handyman_contact_no">Contact No</string>
+    <string name="enter_contact_no">Please Enter Contact Number.</string>
+    <string name="enter_contact_no_length">Contact Number length must be 10 numbers.</string>
+    <string name="hire_handyman_address">Address</string>
+    <string name="hire_handyman_stree_road">Street/Road</string>
+    <string name="hire_handyman_landmark">Landmark</string>
+    <string name="hire_handyman_pincode">Pincode</string>
+    <string name="hire_handyman_requirements">Requirements</string>
+    <string name="enter_requirements">Please Enter Requirements</string>
+    <string name="hire_handyman_confirm_your_details">CONFIRM YOUR DETAILS</string>
+
+    <!-- Credits Dialog -->
+    <string name="cradits_dialog_confirm">CONFIRM</string>
+    <string name="cradits_dialog_cancel">CANCEL</string>
+
+    <!-- My Credits -->
+    <string name="request_more_credit">REQUEST MORE CREDIT</string>
+    <string name="balance">Balance:</string>
+    <string name="credits_text">40 CREDITS</string>
+    <string name="my_spent_text">My Spent</string>
+
+    <!-- Edit Profile -->
+    <string name="edit_profile">EDIT PROFILE</string>
+
+    <!-- Register complain -->
+    <string name="register_complain">REGISTER A COMPLAIN</string>
+    <string name="register_complain_text">Please provide your comment for Customer</string>
+    <string name="register_complain_title">Title</string>
+    <string name="enter_register_complain_title">Please Enter Title</string>
+    <string name="register_complain_description">Description</string>
+    <string name="enter_register_complain_description">Please Enter Description</string>
+
+    <!-- Rate complain -->
+    <string name="rate_handyman">RATE HANDYMAN</string>
+
+    <!-- Hire Me -->
+    <string name="hire_for">Hire For:</string>
+    <string name="repaire_fancy_lights">Repair fancy lights</string>
+
+    <!-- Handyman Customer -->
+    <string name="hire_customer_accept">ACCEPT</string>
+    <string name="hire_customer_cancel">CANCEL</string>
+    <string name="hire_customer_complete">COMPLETE</string>
+    <string name="hire_customer_job_description">Job Description</string>
+    <string name="hire_customer_date">Date</string>
+    <string name="hire_customer_order_id">Order Id</string>
+    <string name="hire_customer_order_date">Order Date</string>
+    <string name="hire_customer_appointment_date">Appointment Date</string>
+    <string name="hire_customer_appointment_time">Appointment Time</string>
+    <string name="hire_customer_time">Time</string>
+    <string name="hire_customer_contact_person">Contact Person</string>
+    <string name="hire_customer_contact_no">Contact Number</string>
+    <string name="hire_customer_address">Address</string>
+    <string name="hire_customer_requirment">Requirement</string>
+    
+    <!-- Signature -->
+    <string name="signature_job_title">Job Title</string>
+    <string name="signature_amount">Amount</string>
+    <string name="signature_total_amount">Total Amount</string>
+    <string name="signature_name">Signature Name</string>
+    <string name="signature_discount">Discount</string>
+    <string name="signature_credits">Coins</string>
+    <string name="signature">Signature</string>
+    <string name="signature_title">Payment</string>
+    <string name="apply">Apply</string>
+    <string name="signature_img">Signature Pic</string>
+    <string name="signature_submit">Submit</string>
+    
+    <string name="gcm_deleted">From GCM: server deleted %1$d pending messages!</string>
+    <string name="Error">Error</string>
+    <string name="install_googleplay">Please install Google Play Services.</string>
+
+    <!--My Credits-->
+    <string name="total_credits">Total Coins</string>
+    <string name="enter_total_credit">Total Credit</string>
+    <string name="total_amount">Total Amount</string>
+    <string name="convert_credit_cash">Convert Coins Into Cash</string>
+    <string name="credits_amount">Credits:</string>
+    <string name="enter_credit_amount">Enter Your Coins</string>
+
+    <!--Permission msg-->
+    <string name="photo_deny_permission">Without this permission the app is unable to change images and location or GPS is not work. Are you sure you want to deny this permission?</string>
+    <string name="location_deny_permission">Without this permission the app is unable to location and also GPS is not work. Are you sure you want to deny this permission?</string>
+
+</resources>

@@ -1,0 +1,531 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* app_data_libs/
+* app_data_libs/SlidingPaneLibrary/
+* app_data_libs/SlidingPaneLibrary/.classpath
+* app_data_libs/SlidingPaneLibrary/.project
+* app_data_libs/SlidingPaneLibrary/.settings/
+* app_data_libs/SlidingPaneLibrary/.settings/org.eclipse.jdt.core.prefs
+* app_data_libs/SlidingPaneLibrary/AndroidManifest.xml
+* app_data_libs/SlidingPaneLibrary/LICENSE.txt
+* app_data_libs/SlidingPaneLibrary/bin/
+* app_data_libs/SlidingPaneLibrary/bin/AndroidManifest.xml
+* app_data_libs/SlidingPaneLibrary/bin/R.txt
+* app_data_libs/SlidingPaneLibrary/bin/classes/
+* app_data_libs/SlidingPaneLibrary/bin/classes/com/
+* app_data_libs/SlidingPaneLibrary/bin/classes/com/jeremyfeinstein/
+* app_data_libs/SlidingPaneLibrary/bin/classes/com/jeremyfeinstein/slidingmenu/
+* app_data_libs/SlidingPaneLibrary/bin/classes/com/jeremyfeinstein/slidingmenu/lib/
+* app_data_libs/SlidingPaneLibrary/bin/classes/com/jeremyfeinstein/slidingmenu/lib/BuildConfig.class
+* app_data_libs/SlidingPaneLibrary/bin/classes/com/jeremyfeinstein/slidingmenu/lib/CanvasTransformerBuilder$1.class
+* app_data_libs/SlidingPaneLibrary/bin/classes/com/jeremyfeinstein/slidingmenu/lib/CanvasTransformerBuilder$2.class
+* app_data_libs/SlidingPaneLibrary/bin/classes/com/jeremyfeinstein/slidingmenu/lib/CanvasTransformerBuilder$3.class
+* app_data_libs/SlidingPaneLibrary/bin/classes/com/jeremyfeinstein/slidingmenu/lib/CanvasTransformerBuilder$4.class
+* app_data_libs/SlidingPaneLibrary/bin/classes/com/jeremyfeinstein/slidingmenu/lib/CanvasTransformerBuilder$5.class
+* app_data_libs/SlidingPaneLibrary/bin/classes/com/jeremyfeinstein/slidingmenu/lib/CanvasTransformerBuilder$6.class
+* app_data_libs/SlidingPaneLibrary/bin/classes/com/jeremyfeinstein/slidingmenu/lib/CanvasTransformerBuilder.class
+* app_data_libs/SlidingPaneLibrary/bin/classes/com/jeremyfeinstein/slidingmenu/lib/CustomViewAbove$1.class
+* app_data_libs/SlidingPaneLibrary/bin/classes/com/jeremyfeinstein/slidingmenu/lib/CustomViewAbove$2.class
+* app_data_libs/SlidingPaneLibrary/bin/classes/com/jeremyfeinstein/slidingmenu/lib/CustomViewAbove$OnPageChangeListener.class
+* app_data_libs/SlidingPaneLibrary/bin/classes/com/jeremyfeinstein/slidingmenu/lib/CustomViewAbove$SimpleOnPageChangeListener.class
+* app_data_libs/SlidingPaneLibrary/bin/classes/com/jeremyfeinstein/slidingmenu/lib/CustomViewAbove.class
+* app_data_libs/SlidingPaneLibrary/bin/classes/com/jeremyfeinstein/slidingmenu/lib/CustomViewBehind.class
+* app_data_libs/SlidingPaneLibrary/bin/classes/com/jeremyfeinstein/slidingmenu/lib/MenuInterface.class
+* app_data_libs/SlidingPaneLibrary/bin/classes/com/jeremyfeinstein/slidingmenu/lib/R$attr.class
+* app_data_libs/SlidingPaneLibrary/bin/classes/com/jeremyfeinstein/slidingmenu/lib/R$id.class
+* app_data_libs/SlidingPaneLibrary/bin/classes/com/jeremyfeinstein/slidingmenu/lib/R$layout.class
+* app_data_libs/SlidingPaneLibrary/bin/classes/com/jeremyfeinstein/slidingmenu/lib/R$styleable.class
+* app_data_libs/SlidingPaneLibrary/bin/classes/com/jeremyfeinstein/slidingmenu/lib/R.class
+* app_data_libs/SlidingPaneLibrary/bin/classes/com/jeremyfeinstein/slidingmenu/lib/SlidingMenu$1.class
+* app_data_libs/SlidingPaneLibrary/bin/classes/com/jeremyfeinstein/slidingmenu/lib/SlidingMenu$2.class
+* app_data_libs/SlidingPaneLibrary/bin/classes/com/jeremyfeinstein/slidingmenu/lib/SlidingMenu$CanvasTransformer.class
+* app_data_libs/SlidingPaneLibrary/bin/classes/com/jeremyfeinstein/slidingmenu/lib/SlidingMenu$OnCloseListener.class
+* app_data_libs/SlidingPaneLibrary/bin/classes/com/jeremyfeinstein/slidingmenu/lib/SlidingMenu$OnClosedListener.class
+* app_data_libs/SlidingPaneLibrary/bin/classes/com/jeremyfeinstein/slidingmenu/lib/SlidingMenu$OnOpenListener.class
+* app_data_libs/SlidingPaneLibrary/bin/classes/com/jeremyfeinstein/slidingmenu/lib/SlidingMenu$OnOpenedListener.class
+* app_data_libs/SlidingPaneLibrary/bin/classes/com/jeremyfeinstein/slidingmenu/lib/SlidingMenu$SavedState$1.class
+* app_data_libs/SlidingPaneLibrary/bin/classes/com/jeremyfeinstein/slidingmenu/lib/SlidingMenu$SavedState.class
+* app_data_libs/SlidingPaneLibrary/bin/classes/com/jeremyfeinstein/slidingmenu/lib/SlidingMenu.class
+* app_data_libs/SlidingPaneLibrary/bin/classes/com/jeremyfeinstein/slidingmenu/lib/app/
+* app_data_libs/SlidingPaneLibrary/bin/classes/com/jeremyfeinstein/slidingmenu/lib/app/SlidingActivity.class
+* app_data_libs/SlidingPaneLibrary/bin/classes/com/jeremyfeinstein/slidingmenu/lib/app/SlidingActivityBase.class
+* app_data_libs/SlidingPaneLibrary/bin/classes/com/jeremyfeinstein/slidingmenu/lib/app/SlidingActivityHelper$1.class
+* app_data_libs/SlidingPaneLibrary/bin/classes/com/jeremyfeinstein/slidingmenu/lib/app/SlidingActivityHelper.class
+* app_data_libs/SlidingPaneLibrary/bin/classes/com/jeremyfeinstein/slidingmenu/lib/app/SlidingFragmentActivity.class
+* app_data_libs/SlidingPaneLibrary/bin/classes/com/jeremyfeinstein/slidingmenu/lib/app/SlidingListActivity.class
+* app_data_libs/SlidingPaneLibrary/bin/classes/com/jeremyfeinstein/slidingmenu/lib/app/SlidingPreferenceActivity.class
+* app_data_libs/SlidingPaneLibrary/bin/jarlist.cache
+* app_data_libs/SlidingPaneLibrary/bin/slidingpanelibrary.jar
+* app_data_libs/SlidingPaneLibrary/build.gradle
+* app_data_libs/SlidingPaneLibrary/gen/
+* app_data_libs/SlidingPaneLibrary/gen/com/
+* app_data_libs/SlidingPaneLibrary/gen/com/jeremyfeinstein/
+* app_data_libs/SlidingPaneLibrary/gen/com/jeremyfeinstein/slidingmenu/
+* app_data_libs/SlidingPaneLibrary/gen/com/jeremyfeinstein/slidingmenu/lib/
+* app_data_libs/SlidingPaneLibrary/gen/com/jeremyfeinstein/slidingmenu/lib/BuildConfig.java
+* app_data_libs/SlidingPaneLibrary/gen/com/jeremyfeinstein/slidingmenu/lib/R.java
+* app_data_libs/SlidingPaneLibrary/library.iml
+* app_data_libs/SlidingPaneLibrary/libs/
+* app_data_libs/SlidingPaneLibrary/libs/android-support-v4.jar
+* app_data_libs/SlidingPaneLibrary/pom.xml
+* app_data_libs/SlidingPaneLibrary/project.properties
+* app_data_libs/SlidingPaneLibrary/res/
+* app_data_libs/SlidingPaneLibrary/res/layout/
+* app_data_libs/SlidingPaneLibrary/res/layout/slidingmenumain.xml
+* app_data_libs/SlidingPaneLibrary/res/values/
+* app_data_libs/SlidingPaneLibrary/res/values/attrs.xml
+* app_data_libs/SlidingPaneLibrary/res/values/ids.xml
+* app_data_libs/SlidingPaneLibrary/src/
+* app_data_libs/SlidingPaneLibrary/src/com/
+* app_data_libs/SlidingPaneLibrary/src/com/jeremyfeinstein/
+* app_data_libs/SlidingPaneLibrary/src/com/jeremyfeinstein/slidingmenu/
+* app_data_libs/SlidingPaneLibrary/src/com/jeremyfeinstein/slidingmenu/lib/
+* app_data_libs/SlidingPaneLibrary/src/com/jeremyfeinstein/slidingmenu/lib/CanvasTransformerBuilder.java
+* app_data_libs/SlidingPaneLibrary/src/com/jeremyfeinstein/slidingmenu/lib/CustomViewAbove.java
+* app_data_libs/SlidingPaneLibrary/src/com/jeremyfeinstein/slidingmenu/lib/CustomViewBehind.java
+* app_data_libs/SlidingPaneLibrary/src/com/jeremyfeinstein/slidingmenu/lib/MenuInterface.java
+* app_data_libs/SlidingPaneLibrary/src/com/jeremyfeinstein/slidingmenu/lib/SlidingMenu.java
+* app_data_libs/SlidingPaneLibrary/src/com/jeremyfeinstein/slidingmenu/lib/app/
+* app_data_libs/SlidingPaneLibrary/src/com/jeremyfeinstein/slidingmenu/lib/app/SlidingActivity.java
+* app_data_libs/SlidingPaneLibrary/src/com/jeremyfeinstein/slidingmenu/lib/app/SlidingActivityBase.java
+* app_data_libs/SlidingPaneLibrary/src/com/jeremyfeinstein/slidingmenu/lib/app/SlidingActivityHelper.java
+* app_data_libs/SlidingPaneLibrary/src/com/jeremyfeinstein/slidingmenu/lib/app/SlidingFragmentActivity.java
+* app_data_libs/SlidingPaneLibrary/src/com/jeremyfeinstein/slidingmenu/lib/app/SlidingListActivity.java
+* app_data_libs/SlidingPaneLibrary/src/com/jeremyfeinstein/slidingmenu/lib/app/SlidingPreferenceActivity.java
+* app_data_libs/google-play-services_lib/
+* app_data_libs/google-play-services_lib/.classpath
+* app_data_libs/google-play-services_lib/.project
+* app_data_libs/google-play-services_lib/.settings/
+* app_data_libs/google-play-services_lib/.settings/org.eclipse.jdt.core.prefs
+* app_data_libs/google-play-services_lib/AndroidManifest.xml
+* app_data_libs/google-play-services_lib/README.txt
+* app_data_libs/google-play-services_lib/bin/
+* app_data_libs/google-play-services_lib/bin/AndroidManifest.xml
+* app_data_libs/google-play-services_lib/bin/R.txt
+* app_data_libs/google-play-services_lib/bin/classes/
+* app_data_libs/google-play-services_lib/bin/classes/android/
+* app_data_libs/google-play-services_lib/bin/classes/android/UnusedStub.class
+* app_data_libs/google-play-services_lib/bin/classes/com/
+* app_data_libs/google-play-services_lib/bin/classes/com/google/
+* app_data_libs/google-play-services_lib/bin/classes/com/google/android/
+* app_data_libs/google-play-services_lib/bin/classes/com/google/android/gms/
+* app_data_libs/google-play-services_lib/bin/classes/com/google/android/gms/BuildConfig.class
+* app_data_libs/google-play-services_lib/bin/classes/com/google/android/gms/R$attr.class
+* app_data_libs/google-play-services_lib/bin/classes/com/google/android/gms/R$color.class
+* app_data_libs/google-play-services_lib/bin/classes/com/google/android/gms/R$drawable.class
+* app_data_libs/google-play-services_lib/bin/classes/com/google/android/gms/R$id.class
+* app_data_libs/google-play-services_lib/bin/classes/com/google/android/gms/R$integer.class
+* app_data_libs/google-play-services_lib/bin/classes/com/google/android/gms/R$string.class
+* app_data_libs/google-play-services_lib/bin/classes/com/google/android/gms/R$styleable.class
+* app_data_libs/google-play-services_lib/bin/classes/com/google/android/gms/R.class
+* app_data_libs/google-play-services_lib/bin/google-play-services_lib.jar
+* app_data_libs/google-play-services_lib/bin/jarlist.cache
+* app_data_libs/google-play-services_lib/bin/res/
+* app_data_libs/google-play-services_lib/bin/res/crunch/
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-hdpi/
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-hdpi/common_signin_btn_icon_disabled_dark.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-hdpi/common_signin_btn_icon_disabled_focus_dark.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-hdpi/common_signin_btn_icon_disabled_focus_light.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-hdpi/common_signin_btn_icon_disabled_light.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-hdpi/common_signin_btn_icon_focus_dark.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-hdpi/common_signin_btn_icon_focus_light.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-hdpi/common_signin_btn_icon_normal_dark.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-hdpi/common_signin_btn_icon_normal_light.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-hdpi/common_signin_btn_icon_pressed_dark.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-hdpi/common_signin_btn_icon_pressed_light.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-hdpi/common_signin_btn_text_disabled_dark.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-hdpi/common_signin_btn_text_disabled_focus_dark.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-hdpi/common_signin_btn_text_disabled_focus_light.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-hdpi/common_signin_btn_text_disabled_light.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-hdpi/common_signin_btn_text_focus_dark.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-hdpi/common_signin_btn_text_focus_light.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-hdpi/common_signin_btn_text_normal_dark.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-hdpi/common_signin_btn_text_normal_light.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-hdpi/common_signin_btn_text_pressed_dark.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-hdpi/common_signin_btn_text_pressed_light.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-hdpi/ic_plusone_medium_off_client.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-hdpi/ic_plusone_small_off_client.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-hdpi/ic_plusone_standard_off_client.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-hdpi/ic_plusone_tall_off_client.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-mdpi/
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-mdpi/common_signin_btn_icon_disabled_dark.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-mdpi/common_signin_btn_icon_disabled_focus_dark.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-mdpi/common_signin_btn_icon_disabled_focus_light.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-mdpi/common_signin_btn_icon_disabled_light.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-mdpi/common_signin_btn_icon_focus_dark.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-mdpi/common_signin_btn_icon_focus_light.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-mdpi/common_signin_btn_icon_normal_dark.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-mdpi/common_signin_btn_icon_normal_light.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-mdpi/common_signin_btn_icon_pressed_dark.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-mdpi/common_signin_btn_icon_pressed_light.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-mdpi/common_signin_btn_text_disabled_dark.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-mdpi/common_signin_btn_text_disabled_focus_dark.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-mdpi/common_signin_btn_text_disabled_focus_light.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-mdpi/common_signin_btn_text_disabled_light.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-mdpi/common_signin_btn_text_focus_dark.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-mdpi/common_signin_btn_text_focus_light.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-mdpi/common_signin_btn_text_normal_dark.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-mdpi/common_signin_btn_text_normal_light.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-mdpi/common_signin_btn_text_pressed_dark.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-mdpi/common_signin_btn_text_pressed_light.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-mdpi/ic_plusone_medium_off_client.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-mdpi/ic_plusone_small_off_client.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-mdpi/ic_plusone_standard_off_client.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-mdpi/ic_plusone_tall_off_client.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-xhdpi/
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-xhdpi/common_signin_btn_icon_disabled_dark.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-xhdpi/common_signin_btn_icon_disabled_focus_dark.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-xhdpi/common_signin_btn_icon_disabled_focus_light.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-xhdpi/common_signin_btn_icon_disabled_light.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-xhdpi/common_signin_btn_icon_focus_dark.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-xhdpi/common_signin_btn_icon_focus_light.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-xhdpi/common_signin_btn_icon_normal_dark.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-xhdpi/common_signin_btn_icon_normal_light.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-xhdpi/common_signin_btn_icon_pressed_dark.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-xhdpi/common_signin_btn_icon_pressed_light.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-xhdpi/common_signin_btn_text_disabled_dark.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-xhdpi/common_signin_btn_text_disabled_focus_dark.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-xhdpi/common_signin_btn_text_disabled_focus_light.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-xhdpi/common_signin_btn_text_disabled_light.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-xhdpi/common_signin_btn_text_focus_dark.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-xhdpi/common_signin_btn_text_focus_light.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-xhdpi/common_signin_btn_text_normal_dark.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-xhdpi/common_signin_btn_text_normal_light.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-xhdpi/common_signin_btn_text_pressed_dark.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-xhdpi/common_signin_btn_text_pressed_light.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-xhdpi/ic_plusone_medium_off_client.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-xhdpi/ic_plusone_small_off_client.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-xhdpi/ic_plusone_standard_off_client.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-xhdpi/ic_plusone_tall_off_client.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-xxhdpi/
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-xxhdpi/common_signin_btn_icon_disabled_dark.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-xxhdpi/common_signin_btn_icon_disabled_focus_dark.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-xxhdpi/common_signin_btn_icon_disabled_focus_light.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-xxhdpi/common_signin_btn_icon_disabled_light.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-xxhdpi/common_signin_btn_icon_focus_dark.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-xxhdpi/common_signin_btn_icon_focus_light.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-xxhdpi/common_signin_btn_icon_normal_dark.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-xxhdpi/common_signin_btn_icon_normal_light.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-xxhdpi/common_signin_btn_icon_pressed_dark.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-xxhdpi/common_signin_btn_icon_pressed_light.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-xxhdpi/common_signin_btn_text_disabled_dark.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-xxhdpi/common_signin_btn_text_disabled_focus_dark.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-xxhdpi/common_signin_btn_text_disabled_focus_light.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-xxhdpi/common_signin_btn_text_disabled_light.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-xxhdpi/common_signin_btn_text_focus_dark.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-xxhdpi/common_signin_btn_text_focus_light.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-xxhdpi/common_signin_btn_text_normal_dark.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-xxhdpi/common_signin_btn_text_normal_light.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-xxhdpi/common_signin_btn_text_pressed_dark.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-xxhdpi/common_signin_btn_text_pressed_light.9.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-xxhdpi/ic_plusone_medium_off_client.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-xxhdpi/ic_plusone_small_off_client.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-xxhdpi/ic_plusone_standard_off_client.png
+* app_data_libs/google-play-services_lib/bin/res/crunch/drawable-xxhdpi/ic_plusone_tall_off_client.png
+* app_data_libs/google-play-services_lib/gen/
+* app_data_libs/google-play-services_lib/gen/com/
+* app_data_libs/google-play-services_lib/gen/com/google/
+* app_data_libs/google-play-services_lib/gen/com/google/android/
+* app_data_libs/google-play-services_lib/gen/com/google/android/gms/
+* app_data_libs/google-play-services_lib/gen/com/google/android/gms/BuildConfig.java
+* app_data_libs/google-play-services_lib/gen/com/google/android/gms/R.java
+* app_data_libs/google-play-services_lib/libs/
+* app_data_libs/google-play-services_lib/libs/google-play-services.jar
+* app_data_libs/google-play-services_lib/libs/google-play-services.jar.properties
+* app_data_libs/google-play-services_lib/proguard.txt
+* app_data_libs/google-play-services_lib/project.properties
+* app_data_libs/google-play-services_lib/res/
+* app_data_libs/google-play-services_lib/res/color/
+* app_data_libs/google-play-services_lib/res/color/common_signin_btn_text_dark.xml
+* app_data_libs/google-play-services_lib/res/color/common_signin_btn_text_light.xml
+* app_data_libs/google-play-services_lib/res/drawable-hdpi/
+* app_data_libs/google-play-services_lib/res/drawable-hdpi/common_signin_btn_icon_disabled_dark.9.png
+* app_data_libs/google-play-services_lib/res/drawable-hdpi/common_signin_btn_icon_disabled_focus_dark.9.png
+* app_data_libs/google-play-services_lib/res/drawable-hdpi/common_signin_btn_icon_disabled_focus_light.9.png
+* app_data_libs/google-play-services_lib/res/drawable-hdpi/common_signin_btn_icon_disabled_light.9.png
+* app_data_libs/google-play-services_lib/res/drawable-hdpi/common_signin_btn_icon_focus_dark.9.png
+* app_data_libs/google-play-services_lib/res/drawable-hdpi/common_signin_btn_icon_focus_light.9.png
+* app_data_libs/google-play-services_lib/res/drawable-hdpi/common_signin_btn_icon_normal_dark.9.png
+* app_data_libs/google-play-services_lib/res/drawable-hdpi/common_signin_btn_icon_normal_light.9.png
+* app_data_libs/google-play-services_lib/res/drawable-hdpi/common_signin_btn_icon_pressed_dark.9.png
+* app_data_libs/google-play-services_lib/res/drawable-hdpi/common_signin_btn_icon_pressed_light.9.png
+* app_data_libs/google-play-services_lib/res/drawable-hdpi/common_signin_btn_text_disabled_dark.9.png
+* app_data_libs/google-play-services_lib/res/drawable-hdpi/common_signin_btn_text_disabled_focus_dark.9.png
+* app_data_libs/google-play-services_lib/res/drawable-hdpi/common_signin_btn_text_disabled_focus_light.9.png
+* app_data_libs/google-play-services_lib/res/drawable-hdpi/common_signin_btn_text_disabled_light.9.png
+* app_data_libs/google-play-services_lib/res/drawable-hdpi/common_signin_btn_text_focus_dark.9.png
+* app_data_libs/google-play-services_lib/res/drawable-hdpi/common_signin_btn_text_focus_light.9.png
+* app_data_libs/google-play-services_lib/res/drawable-hdpi/common_signin_btn_text_normal_dark.9.png
+* app_data_libs/google-play-services_lib/res/drawable-hdpi/common_signin_btn_text_normal_light.9.png
+* app_data_libs/google-play-services_lib/res/drawable-hdpi/common_signin_btn_text_pressed_dark.9.png
+* app_data_libs/google-play-services_lib/res/drawable-hdpi/common_signin_btn_text_pressed_light.9.png
+* app_data_libs/google-play-services_lib/res/drawable-hdpi/ic_plusone_medium_off_client.png
+* app_data_libs/google-play-services_lib/res/drawable-hdpi/ic_plusone_small_off_client.png
+* app_data_libs/google-play-services_lib/res/drawable-hdpi/ic_plusone_standard_off_client.png
+* app_data_libs/google-play-services_lib/res/drawable-hdpi/ic_plusone_tall_off_client.png
+* app_data_libs/google-play-services_lib/res/drawable-mdpi/
+* app_data_libs/google-play-services_lib/res/drawable-mdpi/common_signin_btn_icon_disabled_dark.9.png
+* app_data_libs/google-play-services_lib/res/drawable-mdpi/common_signin_btn_icon_disabled_focus_dark.9.png
+* app_data_libs/google-play-services_lib/res/drawable-mdpi/common_signin_btn_icon_disabled_focus_light.9.png
+* app_data_libs/google-play-services_lib/res/drawable-mdpi/common_signin_btn_icon_disabled_light.9.png
+* app_data_libs/google-play-services_lib/res/drawable-mdpi/common_signin_btn_icon_focus_dark.9.png
+* app_data_libs/google-play-services_lib/res/drawable-mdpi/common_signin_btn_icon_focus_light.9.png
+* app_data_libs/google-play-services_lib/res/drawable-mdpi/common_signin_btn_icon_normal_dark.9.png
+* app_data_libs/google-play-services_lib/res/drawable-mdpi/common_signin_btn_icon_normal_light.9.png
+* app_data_libs/google-play-services_lib/res/drawable-mdpi/common_signin_btn_icon_pressed_dark.9.png
+* app_data_libs/google-play-services_lib/res/drawable-mdpi/common_signin_btn_icon_pressed_light.9.png
+* app_data_libs/google-play-services_lib/res/drawable-mdpi/common_signin_btn_text_disabled_dark.9.png
+* app_data_libs/google-play-services_lib/res/drawable-mdpi/common_signin_btn_text_disabled_focus_dark.9.png
+* app_data_libs/google-play-services_lib/res/drawable-mdpi/common_signin_btn_text_disabled_focus_light.9.png
+* app_data_libs/google-play-services_lib/res/drawable-mdpi/common_signin_btn_text_disabled_light.9.png
+* app_data_libs/google-play-services_lib/res/drawable-mdpi/common_signin_btn_text_focus_dark.9.png
+* app_data_libs/google-play-services_lib/res/drawable-mdpi/common_signin_btn_text_focus_light.9.png
+* app_data_libs/google-play-services_lib/res/drawable-mdpi/common_signin_btn_text_normal_dark.9.png
+* app_data_libs/google-play-services_lib/res/drawable-mdpi/common_signin_btn_text_normal_light.9.png
+* app_data_libs/google-play-services_lib/res/drawable-mdpi/common_signin_btn_text_pressed_dark.9.png
+* app_data_libs/google-play-services_lib/res/drawable-mdpi/common_signin_btn_text_pressed_light.9.png
+* app_data_libs/google-play-services_lib/res/drawable-mdpi/ic_plusone_medium_off_client.png
+* app_data_libs/google-play-services_lib/res/drawable-mdpi/ic_plusone_small_off_client.png
+* app_data_libs/google-play-services_lib/res/drawable-mdpi/ic_plusone_standard_off_client.png
+* app_data_libs/google-play-services_lib/res/drawable-mdpi/ic_plusone_tall_off_client.png
+* app_data_libs/google-play-services_lib/res/drawable-xhdpi/
+* app_data_libs/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_icon_disabled_dark.9.png
+* app_data_libs/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_icon_disabled_focus_dark.9.png
+* app_data_libs/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_icon_disabled_focus_light.9.png
+* app_data_libs/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_icon_disabled_light.9.png
+* app_data_libs/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_icon_focus_dark.9.png
+* app_data_libs/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_icon_focus_light.9.png
+* app_data_libs/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_icon_normal_dark.9.png
+* app_data_libs/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_icon_normal_light.9.png
+* app_data_libs/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_icon_pressed_dark.9.png
+* app_data_libs/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_icon_pressed_light.9.png
+* app_data_libs/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_text_disabled_dark.9.png
+* app_data_libs/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_text_disabled_focus_dark.9.png
+* app_data_libs/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_text_disabled_focus_light.9.png
+* app_data_libs/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_text_disabled_light.9.png
+* app_data_libs/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_text_focus_dark.9.png
+* app_data_libs/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_text_focus_light.9.png
+* app_data_libs/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_text_normal_dark.9.png
+* app_data_libs/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_text_normal_light.9.png
+* app_data_libs/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_text_pressed_dark.9.png
+* app_data_libs/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_text_pressed_light.9.png
+* app_data_libs/google-play-services_lib/res/drawable-xhdpi/ic_plusone_medium_off_client.png
+* app_data_libs/google-play-services_lib/res/drawable-xhdpi/ic_plusone_small_off_client.png
+* app_data_libs/google-play-services_lib/res/drawable-xhdpi/ic_plusone_standard_off_client.png
+* app_data_libs/google-play-services_lib/res/drawable-xhdpi/ic_plusone_tall_off_client.png
+* app_data_libs/google-play-services_lib/res/drawable-xxhdpi/
+* app_data_libs/google-play-services_lib/res/drawable-xxhdpi/common_signin_btn_icon_disabled_dark.9.png
+* app_data_libs/google-play-services_lib/res/drawable-xxhdpi/common_signin_btn_icon_disabled_focus_dark.9.png
+* app_data_libs/google-play-services_lib/res/drawable-xxhdpi/common_signin_btn_icon_disabled_focus_light.9.png
+* app_data_libs/google-play-services_lib/res/drawable-xxhdpi/common_signin_btn_icon_disabled_light.9.png
+* app_data_libs/google-play-services_lib/res/drawable-xxhdpi/common_signin_btn_icon_focus_dark.9.png
+* app_data_libs/google-play-services_lib/res/drawable-xxhdpi/common_signin_btn_icon_focus_light.9.png
+* app_data_libs/google-play-services_lib/res/drawable-xxhdpi/common_signin_btn_icon_normal_dark.9.png
+* app_data_libs/google-play-services_lib/res/drawable-xxhdpi/common_signin_btn_icon_normal_light.9.png
+* app_data_libs/google-play-services_lib/res/drawable-xxhdpi/common_signin_btn_icon_pressed_dark.9.png
+* app_data_libs/google-play-services_lib/res/drawable-xxhdpi/common_signin_btn_icon_pressed_light.9.png
+* app_data_libs/google-play-services_lib/res/drawable-xxhdpi/common_signin_btn_text_disabled_dark.9.png
+* app_data_libs/google-play-services_lib/res/drawable-xxhdpi/common_signin_btn_text_disabled_focus_dark.9.png
+* app_data_libs/google-play-services_lib/res/drawable-xxhdpi/common_signin_btn_text_disabled_focus_light.9.png
+* app_data_libs/google-play-services_lib/res/drawable-xxhdpi/common_signin_btn_text_disabled_light.9.png
+* app_data_libs/google-play-services_lib/res/drawable-xxhdpi/common_signin_btn_text_focus_dark.9.png
+* app_data_libs/google-play-services_lib/res/drawable-xxhdpi/common_signin_btn_text_focus_light.9.png
+* app_data_libs/google-play-services_lib/res/drawable-xxhdpi/common_signin_btn_text_normal_dark.9.png
+* app_data_libs/google-play-services_lib/res/drawable-xxhdpi/common_signin_btn_text_normal_light.9.png
+* app_data_libs/google-play-services_lib/res/drawable-xxhdpi/common_signin_btn_text_pressed_dark.9.png
+* app_data_libs/google-play-services_lib/res/drawable-xxhdpi/common_signin_btn_text_pressed_light.9.png
+* app_data_libs/google-play-services_lib/res/drawable-xxhdpi/ic_plusone_medium_off_client.png
+* app_data_libs/google-play-services_lib/res/drawable-xxhdpi/ic_plusone_small_off_client.png
+* app_data_libs/google-play-services_lib/res/drawable-xxhdpi/ic_plusone_standard_off_client.png
+* app_data_libs/google-play-services_lib/res/drawable-xxhdpi/ic_plusone_tall_off_client.png
+* app_data_libs/google-play-services_lib/res/drawable/
+* app_data_libs/google-play-services_lib/res/drawable/common_signin_btn_icon_dark.xml
+* app_data_libs/google-play-services_lib/res/drawable/common_signin_btn_icon_light.xml
+* app_data_libs/google-play-services_lib/res/drawable/common_signin_btn_text_dark.xml
+* app_data_libs/google-play-services_lib/res/drawable/common_signin_btn_text_light.xml
+* app_data_libs/google-play-services_lib/res/values-af/
+* app_data_libs/google-play-services_lib/res/values-af/strings.xml
+* app_data_libs/google-play-services_lib/res/values-am/
+* app_data_libs/google-play-services_lib/res/values-am/strings.xml
+* app_data_libs/google-play-services_lib/res/values-ar/
+* app_data_libs/google-play-services_lib/res/values-ar/strings.xml
+* app_data_libs/google-play-services_lib/res/values-be/
+* app_data_libs/google-play-services_lib/res/values-be/strings.xml
+* app_data_libs/google-play-services_lib/res/values-bg/
+* app_data_libs/google-play-services_lib/res/values-bg/strings.xml
+* app_data_libs/google-play-services_lib/res/values-ca/
+* app_data_libs/google-play-services_lib/res/values-ca/strings.xml
+* app_data_libs/google-play-services_lib/res/values-cs/
+* app_data_libs/google-play-services_lib/res/values-cs/strings.xml
+* app_data_libs/google-play-services_lib/res/values-da/
+* app_data_libs/google-play-services_lib/res/values-da/strings.xml
+* app_data_libs/google-play-services_lib/res/values-de/
+* app_data_libs/google-play-services_lib/res/values-de/strings.xml
+* app_data_libs/google-play-services_lib/res/values-el/
+* app_data_libs/google-play-services_lib/res/values-el/strings.xml
+* app_data_libs/google-play-services_lib/res/values-en-rGB/
+* app_data_libs/google-play-services_lib/res/values-en-rGB/strings.xml
+* app_data_libs/google-play-services_lib/res/values-en-rIN/
+* app_data_libs/google-play-services_lib/res/values-en-rIN/strings.xml
+* app_data_libs/google-play-services_lib/res/values-es-rUS/
+* app_data_libs/google-play-services_lib/res/values-es-rUS/strings.xml
+* app_data_libs/google-play-services_lib/res/values-es/
+* app_data_libs/google-play-services_lib/res/values-es/strings.xml
+* app_data_libs/google-play-services_lib/res/values-et-rEE/
+* app_data_libs/google-play-services_lib/res/values-et-rEE/strings.xml
+* app_data_libs/google-play-services_lib/res/values-fa/
+* app_data_libs/google-play-services_lib/res/values-fa/strings.xml
+* app_data_libs/google-play-services_lib/res/values-fi/
+* app_data_libs/google-play-services_lib/res/values-fi/strings.xml
+* app_data_libs/google-play-services_lib/res/values-fr-rCA/
+* app_data_libs/google-play-services_lib/res/values-fr-rCA/strings.xml
+* app_data_libs/google-play-services_lib/res/values-fr/
+* app_data_libs/google-play-services_lib/res/values-fr/strings.xml
+* app_data_libs/google-play-services_lib/res/values-hi/
+* app_data_libs/google-play-services_lib/res/values-hi/strings.xml
+* app_data_libs/google-play-services_lib/res/values-hr/
+* app_data_libs/google-play-services_lib/res/values-hr/strings.xml
+* app_data_libs/google-play-services_lib/res/values-hu/
+* app_data_libs/google-play-services_lib/res/values-hu/strings.xml
+* app_data_libs/google-play-services_lib/res/values-hy-rAM/
+* app_data_libs/google-play-services_lib/res/values-hy-rAM/strings.xml
+* app_data_libs/google-play-services_lib/res/values-in/
+* app_data_libs/google-play-services_lib/res/values-in/strings.xml
+* app_data_libs/google-play-services_lib/res/values-it/
+* app_data_libs/google-play-services_lib/res/values-it/strings.xml
+* app_data_libs/google-play-services_lib/res/values-iw/
+* app_data_libs/google-play-services_lib/res/values-iw/strings.xml
+* app_data_libs/google-play-services_lib/res/values-ja/
+* app_data_libs/google-play-services_lib/res/values-ja/strings.xml
+* app_data_libs/google-play-services_lib/res/values-ka-rGE/
+* app_data_libs/google-play-services_lib/res/values-ka-rGE/strings.xml
+* app_data_libs/google-play-services_lib/res/values-km-rKH/
+* app_data_libs/google-play-services_lib/res/values-km-rKH/strings.xml
+* app_data_libs/google-play-services_lib/res/values-ko/
+* app_data_libs/google-play-services_lib/res/values-ko/strings.xml
+* app_data_libs/google-play-services_lib/res/values-lo-rLA/
+* app_data_libs/google-play-services_lib/res/values-lo-rLA/strings.xml
+* app_data_libs/google-play-services_lib/res/values-lt/
+* app_data_libs/google-play-services_lib/res/values-lt/strings.xml
+* app_data_libs/google-play-services_lib/res/values-lv/
+* app_data_libs/google-play-services_lib/res/values-lv/strings.xml
+* app_data_libs/google-play-services_lib/res/values-mn-rMN/
+* app_data_libs/google-play-services_lib/res/values-mn-rMN/strings.xml
+* app_data_libs/google-play-services_lib/res/values-ms-rMY/
+* app_data_libs/google-play-services_lib/res/values-ms-rMY/strings.xml
+* app_data_libs/google-play-services_lib/res/values-nb/
+* app_data_libs/google-play-services_lib/res/values-nb/strings.xml
+* app_data_libs/google-play-services_lib/res/values-nl/
+* app_data_libs/google-play-services_lib/res/values-nl/strings.xml
+* app_data_libs/google-play-services_lib/res/values-pl/
+* app_data_libs/google-play-services_lib/res/values-pl/strings.xml
+* app_data_libs/google-play-services_lib/res/values-pt-rBR/
+* app_data_libs/google-play-services_lib/res/values-pt-rBR/strings.xml
+* app_data_libs/google-play-services_lib/res/values-pt-rPT/
+* app_data_libs/google-play-services_lib/res/values-pt-rPT/strings.xml
+* app_data_libs/google-play-services_lib/res/values-pt/
+* app_data_libs/google-play-services_lib/res/values-pt/strings.xml
+* app_data_libs/google-play-services_lib/res/values-ro/
+* app_data_libs/google-play-services_lib/res/values-ro/strings.xml
+* app_data_libs/google-play-services_lib/res/values-ru/
+* app_data_libs/google-play-services_lib/res/values-ru/strings.xml
+* app_data_libs/google-play-services_lib/res/values-sk/
+* app_data_libs/google-play-services_lib/res/values-sk/strings.xml
+* app_data_libs/google-play-services_lib/res/values-sl/
+* app_data_libs/google-play-services_lib/res/values-sl/strings.xml
+* app_data_libs/google-play-services_lib/res/values-sr/
+* app_data_libs/google-play-services_lib/res/values-sr/strings.xml
+* app_data_libs/google-play-services_lib/res/values-sv/
+* app_data_libs/google-play-services_lib/res/values-sv/strings.xml
+* app_data_libs/google-play-services_lib/res/values-sw/
+* app_data_libs/google-play-services_lib/res/values-sw/strings.xml
+* app_data_libs/google-play-services_lib/res/values-th/
+* app_data_libs/google-play-services_lib/res/values-th/strings.xml
+* app_data_libs/google-play-services_lib/res/values-tl/
+* app_data_libs/google-play-services_lib/res/values-tl/strings.xml
+* app_data_libs/google-play-services_lib/res/values-tr/
+* app_data_libs/google-play-services_lib/res/values-tr/strings.xml
+* app_data_libs/google-play-services_lib/res/values-uk/
+* app_data_libs/google-play-services_lib/res/values-uk/strings.xml
+* app_data_libs/google-play-services_lib/res/values-vi/
+* app_data_libs/google-play-services_lib/res/values-vi/strings.xml
+* app_data_libs/google-play-services_lib/res/values-zh-rCN/
+* app_data_libs/google-play-services_lib/res/values-zh-rCN/strings.xml
+* app_data_libs/google-play-services_lib/res/values-zh-rHK/
+* app_data_libs/google-play-services_lib/res/values-zh-rHK/strings.xml
+* app_data_libs/google-play-services_lib/res/values-zh-rTW/
+* app_data_libs/google-play-services_lib/res/values-zh-rTW/strings.xml
+* app_data_libs/google-play-services_lib/res/values-zu/
+* app_data_libs/google-play-services_lib/res/values-zu/strings.xml
+* app_data_libs/google-play-services_lib/res/values/
+* app_data_libs/google-play-services_lib/res/values/ads_attrs.xml
+* app_data_libs/google-play-services_lib/res/values/colors.xml
+* app_data_libs/google-play-services_lib/res/values/maps_attrs.xml
+* app_data_libs/google-play-services_lib/res/values/strings.xml
+* app_data_libs/google-play-services_lib/res/values/version.xml
+* app_data_libs/google-play-services_lib/src/
+* app_data_libs/google-play-services_lib/src/android/
+* app_data_libs/google-play-services_lib/src/android/UnusedStub.java
+* ic_launcher-web.png
+* proguard-project.txt
+* test.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+gcm.jar => com.google.android.gms:play-services:+
+gson-2.2.4.jar => com.google.code.gson:gson:2.2.4
+
+Potentially Missing Dependency:
+-------------------------------
+When we replaced the following .jar files with a Gradle dependency, we
+inferred the dependency version number from the filename. This
+specific version may not actually be available from the repository.
+If you get a build error stating that the dependency is missing, edit
+the version number to for example "+" to pick up the latest version
+instead. (This may require you to update your code if the library APIs
+have changed.)
+
+gson-2.2.4.jar => version 2.2.4 in com.google.code.gson:gson:2.2.4
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets/
+* libs/httpmime-4.2.3.jar => app/libs/httpmime-4.2.3.jar
+* libs/picasso-2.5.2.jar => app/libs/picasso-2.5.2.jar
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

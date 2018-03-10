@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin_top_10"
+        android:src="@drawable/icon_contact_support" />
+
+    <com.handy.view.TextViewPlus
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_margin="@dimen/margin_top_10"
+        android:text="Call Us For Any Query"
+        android:textColor="@color/menu_text_color"
+        android:textSize="@dimen/margin_top_2"
+        app:customFont="@string/font_regular" />
+
+    <LinearLayout
+        android:id="@+id/linPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"></LinearLayout>
+
+    <com.handy.view.TextViewPlus
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_margin="@dimen/margin_top_10"
+        android:text="OR Email Us"
+        android:textColor="@color/menu_text_color"
+        android:textSize="@dimen/margin_top_2"
+        app:customFont="@string/font_regular" />
+
+
+    <LinearLayout
+        android:id="@+id/linEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"></LinearLayout>
+
+</LinearLayout>

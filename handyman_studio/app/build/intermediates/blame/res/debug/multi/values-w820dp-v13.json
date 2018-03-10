@@ -1,0 +1,544 @@
+[
+    {
+        "outputFile": "/home/ctpl126/Documents/Project/myhandyman/handyman_studio/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 51,
+                    "endOffset": 102
+                },
+                "from": {
+                    "file": "/home/ctpl126/Documents/Project/myhandyman/handyman_studio/app/src/main/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 41,
+                        "endColumn": 51,
+                        "endOffset": 88
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 107,
+                    "endColumn": 50,
+                    "endOffset": 153
+                },
+                "from": {
+                    "file": "/home/ctpl126/Documents/Project/myhandyman/handyman_studio/app/src/main/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 511,
+                        "endColumn": 50,
+                        "endOffset": 557
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 158,
+                    "endColumn": 51,
+                    "endOffset": 205
+                },
+                "from": {
+                    "file": "/home/ctpl126/Documents/Project/myhandyman/handyman_studio/app/src/main/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 563,
+                        "endColumn": 51,
+                        "endOffset": 610
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 210,
+                    "endColumn": 34,
+                    "endOffset": 240
+                },
+                "from": {
+                    "file": "/home/ctpl126/Documents/Project/myhandyman/handyman_studio/app/src/main/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 120,
+                        "endColumn": 34,
+                        "endOffset": 150
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 245,
+                    "endColumn": 34,
+                    "endOffset": 275
+                },
+                "from": {
+                    "file": "/home/ctpl126/Documents/Project/myhandyman/handyman_studio/app/src/main/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 156,
+                        "endColumn": 34,
+                        "endOffset": 186
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 280,
+                    "endColumn": 34,
+                    "endOffset": 310
+                },
+                "from": {
+                    "file": "/home/ctpl126/Documents/Project/myhandyman/handyman_studio/app/src/main/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 192,
+                        "endColumn": 34,
+                        "endOffset": 222
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 315,
+                    "endColumn": 34,
+                    "endOffset": 345
+                },
+                "from": {
+                    "file": "/home/ctpl126/Documents/Project/myhandyman/handyman_studio/app/src/main/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 228,
+                        "endColumn": 34,
+                        "endOffset": 258
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 350,
+                    "endColumn": 34,
+                    "endOffset": 380
+                },
+                "from": {
+                    "file": "/home/ctpl126/Documents/Project/myhandyman/handyman_studio/app/src/main/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 264,
+                        "endColumn": 34,
+                        "endOffset": 294
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 385,
+                    "endColumn": 34,
+                    "endOffset": 415
+                },
+                "from": {
+                    "file": "/home/ctpl126/Documents/Project/myhandyman/handyman_studio/app/src/main/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 300,
+                        "endColumn": 34,
+                        "endOffset": 330
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 420,
+                    "endColumn": 34,
+                    "endOffset": 450
+                },
+                "from": {
+                    "file": "/home/ctpl126/Documents/Project/myhandyman/handyman_studio/app/src/main/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 336,
+                        "endColumn": 34,
+                        "endOffset": 366
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 455,
+                    "endColumn": 34,
+                    "endOffset": 485
+                },
+                "from": {
+                    "file": "/home/ctpl126/Documents/Project/myhandyman/handyman_studio/app/src/main/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 372,
+                        "endColumn": 34,
+                        "endOffset": 402
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 490,
+                    "endColumn": 33,
+                    "endOffset": 519
+                },
+                "from": {
+                    "file": "/home/ctpl126/Documents/Project/myhandyman/handyman_studio/app/src/main/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 408,
+                        "endColumn": 33,
+                        "endOffset": 437
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 524,
+                    "endColumn": 34,
+                    "endOffset": 554
+                },
+                "from": {
+                    "file": "/home/ctpl126/Documents/Project/myhandyman/handyman_studio/app/src/main/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 5,
+                        "startOffset": 444,
+                        "endColumn": 35,
+                        "endOffset": 474
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 559,
+                    "endColumn": 42,
+                    "endOffset": 597
+                },
+                "from": {
+                    "file": "/home/ctpl126/Documents/Project/myhandyman/handyman_studio/app/src/main/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 616,
+                        "endColumn": 42,
+                        "endOffset": 654
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/build/intermediates/res/merged/debug/values-w820dp-v13/values-w820dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 51,
+                    "endOffset": 102
+                },
+                "from": {
+                    "file": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/src/main/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 41,
+                        "endColumn": 51,
+                        "endOffset": 88
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 107,
+                    "endColumn": 50,
+                    "endOffset": 153
+                },
+                "from": {
+                    "file": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/src/main/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 511,
+                        "endColumn": 50,
+                        "endOffset": 557
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 158,
+                    "endColumn": 51,
+                    "endOffset": 205
+                },
+                "from": {
+                    "file": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/src/main/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 563,
+                        "endColumn": 51,
+                        "endOffset": 610
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 210,
+                    "endColumn": 34,
+                    "endOffset": 240
+                },
+                "from": {
+                    "file": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/src/main/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 120,
+                        "endColumn": 34,
+                        "endOffset": 150
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 245,
+                    "endColumn": 34,
+                    "endOffset": 275
+                },
+                "from": {
+                    "file": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/src/main/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 156,
+                        "endColumn": 34,
+                        "endOffset": 186
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 280,
+                    "endColumn": 34,
+                    "endOffset": 310
+                },
+                "from": {
+                    "file": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/src/main/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 192,
+                        "endColumn": 34,
+                        "endOffset": 222
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 315,
+                    "endColumn": 34,
+                    "endOffset": 345
+                },
+                "from": {
+                    "file": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/src/main/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 228,
+                        "endColumn": 34,
+                        "endOffset": 258
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 350,
+                    "endColumn": 34,
+                    "endOffset": 380
+                },
+                "from": {
+                    "file": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/src/main/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 264,
+                        "endColumn": 34,
+                        "endOffset": 294
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 385,
+                    "endColumn": 34,
+                    "endOffset": 415
+                },
+                "from": {
+                    "file": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/src/main/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 300,
+                        "endColumn": 34,
+                        "endOffset": 330
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 420,
+                    "endColumn": 34,
+                    "endOffset": 450
+                },
+                "from": {
+                    "file": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/src/main/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 336,
+                        "endColumn": 34,
+                        "endOffset": 366
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 455,
+                    "endColumn": 34,
+                    "endOffset": 485
+                },
+                "from": {
+                    "file": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/src/main/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 372,
+                        "endColumn": 34,
+                        "endOffset": 402
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 490,
+                    "endColumn": 33,
+                    "endOffset": 519
+                },
+                "from": {
+                    "file": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/src/main/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 408,
+                        "endColumn": 33,
+                        "endOffset": 437
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 524,
+                    "endColumn": 34,
+                    "endOffset": 554
+                },
+                "from": {
+                    "file": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/src/main/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 5,
+                        "startOffset": 444,
+                        "endColumn": 35,
+                        "endOffset": 474
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 559,
+                    "endColumn": 42,
+                    "endOffset": 597
+                },
+                "from": {
+                    "file": "/media/adminz/Data1/projects/myhandyman/handyman_studio/app/src/main/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 616,
+                        "endColumn": 42,
+                        "endOffset": 654
+                    }
+                }
+            }
+        ]
+    }
+]

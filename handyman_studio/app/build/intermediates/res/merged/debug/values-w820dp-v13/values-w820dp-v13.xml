@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="actionbar_title_size">23sp</dimen>
+    <dimen name="getEvent_row_width">140dp</dimen>
+    <dimen name="getEvent_row_width2">110dp</dimen>
+    <dimen name="h_0">32sp</dimen>
+    <dimen name="h_1">28sp</dimen>
+    <dimen name="h_2">26sp</dimen>
+    <dimen name="h_3">24sp</dimen>
+    <dimen name="h_4">22sp</dimen>
+    <dimen name="h_5">20sp</dimen>
+    <dimen name="h_6">18sp</dimen>
+    <dimen name="h_7">13sp</dimen>
+    <dimen name="h_8">9sp</dimen>
+    <dimen name="h_9">11sp</dimen>
+    <dimen name="map_height">230dp</dimen>
+</resources>

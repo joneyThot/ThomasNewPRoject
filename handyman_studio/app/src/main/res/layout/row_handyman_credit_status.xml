@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/margin_top_10">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.handy.view.TextViewPlus
+                    android:id="@+id/txtCreditConvertDisplay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="Coins converted: "
+                    android:textColor="@color/hire_for_color"
+                    android:textSize="@dimen/margin_top_2"
+                    app:customFont="@string/font_regular" />
+
+                <com.handy.view.TextViewPlus
+                    android:id="@+id/txtCreditConvert"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/title_color"
+                    android:textSize="@dimen/margin_top_2"
+                    app:customFont="@string/font_medium" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <com.handy.view.TextViewPlus
+                    android:id="@+id/txtCreditIdDisplay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="Id: "
+                    android:textColor="@color/hire_for_color"
+                    android:textSize="@dimen/margin_top_1"
+                    android:textStyle="italic"
+                    app:customFont="@string/font_regular" />
+
+                <com.handy.view.TextViewPlus
+                    android:id="@+id/txtCreditId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text=""
+                    android:textColor="@color/title_color"
+                    android:textSize="@dimen/margin_top_1"
+                    android:textStyle="italic"
+                    app:customFont="@string/font_medium" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="-2dp"
+                android:layout_marginTop="@dimen/margin_top"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/menu_home"
+                    android:src="@drawable/icon_calendar" />
+
+                <com.handy.view.TextViewPlus
+                    android:id="@+id/txtCreditDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_top"
+                    android:layout_weight="1"
+                    android:text="20/11/2015"
+                    android:textColor="@color/hire_for_color"
+                    android:textSize="@dimen/margin_top_1"
+                    app:customFont="@string/font_italic" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/menu_home"
+                    android:src="@drawable/icon_rupee" />
+
+                <com.handy.view.TextViewPlus
+                    android:id="@+id/txtCreditAmount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_3dp"
+                    android:layout_weight="1"
+                    android:text="350/-"
+                    android:textColor="@color/hire_for_color"
+                    android:textSize="@dimen/margin_top_1"
+                    app:customFont="@string/font_italic" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/menu_home"
+                    android:src="@drawable/icon_credits_light"
+                    android:visibility="invisible" />
+
+                <com.handy.view.TextViewPlus
+                    android:id="@+id/credits_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_top"
+                    android:layout_weight="1"
+                    android:text="2 Credits "
+                    android:textColor="@color/hire_for_color"
+                    android:textSize="@dimen/margin_top_1"
+                    android:visibility="invisible"
+                    app:customFont="@string/font_italic" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/ctpl126/.android/build-cache/1336f0dff2884ab92b5bac343967bb8d58795f6d/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/home/ctpl126/.android/build-cache/1336f0dff2884ab92b5bac343967bb8d58795f6d/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/ctpl126/.android/build-cache/1336f0dff2884ab92b5bac343967bb8d58795f6d/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/layout-v21/place_autocomplete_fragment.xml",
+        "source": "/home/ctpl126/.android/build-cache/5d79afcd7edfa0f0fe9d42a739f71e31ed80659c/output/res/layout-v21/place_autocomplete_fragment.xml"
+    },
+    {
+        "merged": "/home/ctpl126/Documents/Project/myhandyman/customer_studio/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/ctpl126/.android/build-cache/1336f0dff2884ab92b5bac343967bb8d58795f6d/output/res/layout-v21/notification_action_tombstone.xml"
+    }
+]
